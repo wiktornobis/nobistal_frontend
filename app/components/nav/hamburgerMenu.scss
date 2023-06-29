@@ -1,0 +1,112 @@
+@import "../../[locale]/params";
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__toggle {
+    &--icon {
+      font-size: 3.5rem;
+      position: absolute;
+      left: 1.8rem;
+      top: 2rem;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    background: none;
+    & svg.svg-inline--fa.fa-bars {
+      font-size: 28px;
+      padding-left: $spacing-sm;
+      color: #101010;
+    }
+
+
+    &--items {
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: $desktop-width) {
+    display: none;
+  }
+
+  @include desktop {
+    display: none;
+  }
+
+  @include tablet {
+    display: none;
+  }
+  @include mobile {
+    display: flex;
+  }
+
+}
+.nav-menu {
+  background-color: #f6f6f6;
+  color: black;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top:-200%;
+  transition: 450ms;
+  z-index: 10;
+}
+.nav-menu.active {
+  top: 0;
+  transition: all 450ms ease;
+  & .svg-inline--fa {
+    font-size: 28px;
+    padding-left: 10px;
+  }
+}
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 8rem;
+  text-transform: uppercase;
+  margin-left: 40px;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+}
+.nav-text a {
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8rem;
+  &:hover {
+    background-color: $color-white;
+    padding: 20px 0;
+    width: 100%;
+    padding-left: 0;
+    color: $color-primary;
+  }
+}
+
+.language-mobile {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: 30px;
+  margin-right: 20px;
+  button {
+    background: none;
+  }
+  .flag {
+    width: 40px;
+    height: 30px;
+  }
+}
+.container-menu {
+  margin-top: 2.5rem;
+}

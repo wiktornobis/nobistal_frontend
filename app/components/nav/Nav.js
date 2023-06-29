@@ -1,9 +1,9 @@
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faCheckCircle, faUserShield } from "@fortawesome/free-solid-svg-icons";
-// import anglia from '../../assets/flaga_w_brytanii.jpeg';
+// // import anglia from '../../assets/flaga_w_brytanii.jpeg';
 // import polska from '../../assets/flaga_polska.jpg';
-// import HamburgerMenu from "./HamburgerMenu";
-// import './_nav.scss';
+import HamburgerMenu from "./HamburgerMenu";
+import './_nav.scss';
 import Link from "next-intl/link";
 
 function Nav() {
@@ -31,7 +31,7 @@ function Nav() {
                     </div>
                 </div>
                 <div className="nav_menu_second_column">
-                    {/*<HamburgerMenu />*/}
+                    <HamburgerMenu />
                     <a href="/" aria-label="">
                         <div className="nav_menu_second_column_logo"></div>
                     </a>
