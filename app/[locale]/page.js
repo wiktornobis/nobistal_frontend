@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Link from "next-intl/link";
 import AlertMessage from "./AlertMessage";
+import Nav from "../components/nav/Nav";
 import Head from "next/head";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
 
   return (
       <>
+
       <title>Nowa strona</title>
       <meta name="description" content="Sodemann Sprężyny | Sprzedaż zarówno prywatna jak i firmowa. Jeden z największych dostawców sprężyn w Europie. Syzbka dostawa 24h"/>
       <meta name="keywords" content="sodemann, sodemann Sprężyny, sodemann Sprężyna, Sodemann pl"/>
@@ -16,6 +18,7 @@ export default function Home() {
     <div>
 
       <div>
+            <Nav />
         <Link href="/" locale="pl">
           In polish
         </Link>{" "}

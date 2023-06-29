@@ -1,4 +1,4 @@
-import "./globals.css";
+import "./global.scss";
 import { Inter } from "next/font/google";
 import { useLocale } from "next-intl";
 import { notFound } from "next/navigation";
