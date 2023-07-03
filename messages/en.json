@@ -1,7 +1,202 @@
 {
-  "Index": {
-    "title": "Hello world!!",
-    "subtitle": "How is it going?",
-    "alertMessage": "Something went wrong!"
-  }
+    "Head": {
+      "mainPage": "Main Page",
+      "products": "Products",
+      "form": "Form",
+      "contact": "Contact",
+      "title1": "Highest quality",
+      "title2": "2-year warranty"
+    },
+    "about": {
+        "title": "About Us",
+        "text": "Nobi-Stal is an expert in the production of springs and metal screens. Nobi-Stal's customers are companies from all over the world who use our products in the mining, agricultural, construction, energy industries. Our springs are characterized by very good strength properties because they use advanced production technology. Industries such as agriculture, mining, construction, energy require components that will stand up to harsh conditions and ensure long service life of machinery. Our springs are used, among others: tractors, harvesters, plows. On special order we offer springs used in soil loosening machines.",
+        "sectors": "The use of our springs"
+    },
+    "sectors": {
+        "industry1": "Construction",
+        "industry2": "Agriculture",
+        "industry3": "Mining"
+    },
+    "subpageProducts": {
+        "title": "All Nobi-Stal products are available upon ordering.",
+        "text": "NOBI-STAL specializes in the production of technical springs both in large quantities and in single orders.In the case of special springs, Nobi-Stal has the ability to produce to the customer's special order.",
+        "industry3": "Górnictwo"
+    },
+    "subpageProductsInformation": {
+        "product": "Products",
+        "productOneTitle": "Compression springs",
+        "productTwoTitle": "Tension springs",
+        "productThreeTitle": "Torsion springs",
+        "productFourTitle": "Disc springs",
+        "productFiveTitle": "Wave springs",
+        "productSixTitle": "Wire bent forms",
+        "productSubtitle": "Technical springs",
+        "productSubtitleTwo": "Made to order",
+        "title": "NOBI-STAL",
+        "text1": "Nobi-stal is one of the largest suppliers of technical springs available from stock. With a wide range of high quality products we deliver springs quickly and at a favorable price. The long tradition and international character of the company makes, that Nobi-Stal solutions meet the requirements of both European standards, UIC, Russian GOST, as well as Chinese TB/T. Innovation, competence technological and design competence, several decades of experience and the desire to to follow the ever-increasing requirements of customers constitute the quality of the products and solutions offered.",
+        "text2": "We are constantly expanding our product offerings becoming an even better partner for our customers.",
+        "list1": "Fast delivery of Catalogs of springs and standard parts",
+        "list2": "Delivery of prototypes",
+        "list3": "Graduated prices for standard springs",
+        "list4": "Highest quality",
+        "list5": "Guaranteed quality delivery according DIN / NEN / ISO0"
+    },
+    "carouselProducts": {
+        "title": "Our products",
+        "text": "We have a lot of experience in production, and we offer the possibility of making springs on special order.",
+        "item1": "Tension springs",
+        "title1": "Technical Springs",
+        "item2": "Wire Bending Forms",
+        "item3": "compression springs",
+        "item4": "Corrugated springs",
+        "item5": "Disc springs"
+    },
+    "doradztwo": {
+        "title": "Do you need advice?",
+        "text": "fill in the form",
+        "secondTitle": "Manufacturing of springs and metal screens",
+        "secondText": "Nobi-Stal has huge experience and offers one of the largest capacities in the market for the production of technical springs, preferred, woven, braided and expanded metal metal screens"
+    },
+    "achievement": {
+        "title": "Why is NOBI-STAL the best choice?",
+        "text1": "Trusted brand",
+        "text2": "Inventory Control",
+        "text3": "Timeliness",
+        "text4": "More than 10 years of experience",
+        "text5": "Springs available from stock",
+        "text6": "We fulfill our orders according to the deadline"
+    },
+    "catalog": {
+        "title": "Do you need special order springs?",
+        "text1": "Explore our wide range of products. Click the button and download the selected catalog containing all products.",
+        "text2": "Spring Catalog",
+        "text3": "Sieve Catalog",
+        "text4": "Washer catalog"
+    },
+    "contact": {
+        "title": "Contact",
+        "title2": "Contact details",
+        "name": "COMPANY NAME:",
+        "address": "ADDRESS:",
+        "data": "Company details",
+        "numberAccount": "ING BANK Śląski Account number:"
+    },
+    "form": {
+        "title": "Contact us",
+        "error": "Failed to send a message!",
+        "success1": "The message has been sent!",
+        "success2": "We will get in touch soon.",
+        "send": "Send",
+        "name": "Name",
+        "text": "Type your message"
+    },
+    "cookie": {
+        "ok": "Accept",
+        "text": "On this site, we use cookies and similar functions to process end device information and personal data. Processing is used for purposes such as integration of content, external services and third-party elements, statistical analysis/measurement, personalized advertising and social media integration."
+    },
+     "popupForm": {
+        "title": "Instant Pricing!",
+        "subtitle": "Leave a short message and we will answer all your questions.",
+        "send": "Go to form"
+    },
+      "validate": {
+        "min": "Must contain at least 3 characters!",
+        "trim": "There must be no spaces!",
+        "name": "The given name is invalid!",
+        "email": "The specified email is invalid!",
+        "message": "The message must be at least 120 characters long!"
+    },
+    "subProduct": {
+        "title": "Products",
+        "category": "Technical springs",
+        "subtitle": "Springs",
+        "WireBentTitle": "Wire Bent Forms",
+        "WireBentCategory": "Manufactured to order",
+        "WireBentText": "Compression springs can be ordered after placing an order. With the widest range of compression springs in various sizes, Nobi-Stal provides full support. All compression springs are ground from 1.0 mm and manufactured in accordance with DIN 2089-1 (EN 13906-1) and DIN 2095-2.",
+        "WireBentContent": "Wire is used in a variety of industries and sectors. Wire components are used primarily in:",
+        "WireBentList1": "Automotive",
+        "WireBentList2": "Electronics",
+        "WireBentList3": "Engineering Industry",
+        "WireBentList4": "Racks",
+        "WireBentList5": "Devices",
+        "readMore": "Read more",
+        "compression": "Compression springs",
+        "compressionText": "Compression springs can be ordered by pre-ordering. With the widest range of compression springs in various sizes, Nobi-Stal provides full support. All compression springs are ground from 1.0 mm and manufactured in accordance with DIN 2089-1 (EN 13906-1) and DIN 2095-2.",
+        "compressionContent": "Nobi-Stal can manufacture compression springs with:",
+        "compressionList1": "Fixed pitch",
+        "compressionList2": "Variable pitch",
+        "compressionList3": "Tapered shape",
+        "compressionList4": "Hourglass shape",
+        "compressionList5": "Barrel shape",
+        "stretching": "Stretch springs",
+        "stretchingText": "Stretch springs are made of wire from 0.03 to 20 mm thick.Nobi-Stal always calculates stretch springs in accordance with DIN 2089-2 / EN 13906-2.",
+        "stretchingContent": "Nobi-Stal has the ability to fit the following meshes on the tension spring:",
+        "stretchingList1": "German eyes (double / whole / half)",
+        "stretchingList2": "Hooks",
+        "stretchingList3": "English hooks",
+        "stretchingList4": "Screw-in hooks",
+        "stretchingList5": "No hooks",
+        "torsion": "Torsion springs",
+        "torsionText": "Torsion springs can be ordered by pre-ordering. With the widest range of compression springs in various sizes, Nobi-Stal provides full support. All torsion springs are ground from 1.0 mm and manufactured in accordance with DIN 2089-1 (EN 13906-1) and DIN 2095-2.",
+        "torsionContent": "Nobi-Stal makes the following shapes for the production of torsion springs:",
+        "torsionList1": "Double torsion springs",
+        "torsionList2": "With curved ends",
+        "torsionList3": "With hook ends",
+        "torsionList4": "Twisted ends",
+        "torsionList5": "Torsion springs turned to any degree",
+        "torsionList6": "Adjusted ends",
+        "discs": "Disc springs",
+        "discsText": "Disc springs are manufactured in group 1, group 2 and group 3 in series A, B and C. Our disc springs are manufactured in accordance with DIN EN 16983. Disc springs are used from the railways for fastening. Nobi-STal disc springs are manufactured according to strict quality standards and in accordance with the load characteristics of DIN 2093.",
+        "discsContent": "The advantages compared to other types of springs are:",
+        "discsList1": "Can withstand high pressure with low deflection.",
+        "discsList2": "Space saving",
+        "discsList3": "Longer life",
+        "discsList4": "Inherent damping, especially when the disc springs are placed one on top of the other",
+        "discsList5": "Flexible design of several disc springs one on top of the other",
+        "discsList6": "Adjusted ends",
+        "wave": "Wave springs",
+        "waveText": "Multi Wave Pads can replace multiple compression springs simultaneously and are easy to implement. Instead of calculating how many compression springs are needed for an application, a single Multi-Wave Ring is all that is needed. This makes it easier to build and dismantle the application.",
+        "waveContent": "Advantages of wave springs:",
+        "waveList1": "Multi-wave springs do not have circular motion",
+        "waveList2": "Space saving",
+        "waveList3": "Accuracy and repeatability of deflection parameters",
+        "waveList4": "Versatility"
+    },
+    "headTitle": {
+      "mainPage": "P.P.U.H Nobi-Stal - Producent Sprężyn",
+      "products": "Produkty - Nobistal",
+      "form": "Formularz - Nobistal",
+      "contact": "Kontakt - Nobistal",
+      "springCompression": "Sprężyny Ściskowe - Nobistal",
+      "springStretching": "Sprężyny Naciągowe - Nobistal",
+      "springTorsion": "Sprężyny Naciągowe - Nobistal",
+      "springDiscs": "Sprężyny Talerzowe - Nobistal",
+      "springWave": "Sprężyny Faliste - Nobistal",
+      "wireBentForm": "Formy gięte z drutu - Nobistal"
+    },
+    "headDescription": {
+        "springCompression": "Sprężyny ściskowe o wysokiej jakości. Szeroki wybór i konkurencyjne ceny.",
+        "springStretching": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
+        "springTorsion": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
+        "springDiscs": "Sprężyny talerzowe to innowacyjne elastyczne elementy metalowe, które zapewniają doskonałą kontrolę wstrząsów i drgań w różnych aplikacjach. Wykorzystywane w przemyśle motoryzacyjnym, meblarskim i innych branżach, nasze sprężyny talerzowe cechuje najwyższa jakość, niezawodność i doskonała wydajność.",
+        "springWave": "Sprężyny faliste są elastycznymi elementami metalowymi, które znajdują szerokie zastosowanie w różnych dziedzinach. Charakteryzują się unikalnym wzorem falistym, który zapewnia doskonałą elastyczność i możliwość absorpcji wstrząsów oraz drgań. Nasze sprężyny faliste są wykonane z wysokiej jakości materiałów i cechują się niezawodnością oraz wytrzymałością.",
+        "wireBentForm": "Formy gięte z drutu są wszechstronnymi i elastycznymi rozwiązaniami w różnych branżach. Wykonane z wysokiej jakości drutu metalowego, te formy zapewniają precyzyjne kształtowanie i gięcie zgodnie z indywidualnymi wymaganiami. Doskonale nadają się do zastosowań w przemyśle motoryzacyjnym, meblarskim, elektronice i wielu innych dziedzinach, gdzie precyzja, wytrzymałość i estetyka są kluczowe.",
+        "products": "Oferujemy różnorodne elastyczne rozwiązania sprężynowe, które obejmują sprężyny talerzowe, sprężyny ściskowe, sprężyny naciągowe, sprężyny skrętne i sprężyny faliste. Nasze sprężyny talerzowe są doskonałe do absorpcji wstrząsów i drgań, zapewniając równowagę i stabilność w branżach motoryzacyjnej, przemysłowej i meblarskiej. Natomiast sprężyny faliste, sprężyny ściskowe i sprężyny naciągowe, oferując elastyczność i precyzyjne gięcie. Oferujemy spersonalizowane rozwiązania sprężynowe, które są wykonane z wysokiej jakości materiałów, gwarantując niezawodność, wytrzymałość i doskonałą jakość.",
+        "home": "Producent i dostawca sprężyn i sit. Nobistal jest ekspertem w dziedzinie produkcji sprężyn i sit. Nasze sprężyny stosowane są m.in.: traktorach, kombajnach, pługach.",
+        "form": "Nasz formularz na stronie to wygodne narzędzie, które umożliwia łatwe i szybkie przekazywanie informacji. Dzięki temu formularzowi możesz skontaktować się z nami, zadać pytanie, złożyć zamówienie lub zgłosić swoje zainteresowanie naszymi produktami lub usługami.",
+        "contact": "Nasz kontakt to kluczowy sposób na nawiązanie bezpośredniego połączenia z nami. Dzięki naszym danym kontaktowym, możesz szybko i łatwo skontaktować się z naszym zespołem i uzyskać potrzebną pomoc, informacje lub wsparcie. Bez względu na to, czy masz pytania dotyczące naszych produktów, zamówień, usług czy innych zapytań, nasz kontakt pozwoli Ci skutecznie skomunikować się z nami."
+
+    },
+    "headKeyWords": {
+          "springCompression": "sprężyny ściskowe, sprężyna ściskowa, sprężyna, sprezyny sciskowe, sprezyny, sprezyna, sprężyny ściskowe do maszyn, sprężyny do urządzeń",
+          "springStretching": "sprężyny naciągowe, sprężyna naciągowa, sprężyna, sprezyny, sprezyna,sprezyny naciagowe, sprężyny elastyczne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn naciągowych",
+          "springTorsion": "sprężyny skrętne, sprężyna skrętna, sprężyna, sprezyny skretne, sprezyny, sprezyna, sprężyny torsyjne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn skrętnych",
+          "springDiscs": "sprężyny talerzowe, sprężyna talerzowa, sprężyna, sprezyny, sprezyna, sprezyny talerzowe, elastyczne elementy metalowe, dopasowane sprężyny talerzowe, zastosowanie sprężyn talerzowych",
+          "springWave": "sprężyny faliste, sprężyna falista, sprężyna, sprezyny, sprezyna, sprezyny faliste, elastyczne elementy metalowe, wzór falisty, niezawodność sprężyn falistych, absorpcja wstrząsów i drgań, zastosowanie sprężyn falistych",
+          "wireBentForm": "formy gięte, gięta forma z drutu, gieta forma, wyroby z drutu, wyroby stalowe, elastyczne elementy metalowe, wykorzystanie wyrobów metalowych",
+          "products": "sprężyny, sprężyny ściskowe, sprężyny talerzowe, sprężyny skrętne, sprężyny faliste, spreżyny naciągowe, sprezyny, sprezyna, wyroby metalowe, wytrzymałe sprężyny, wysoka jakosc sprezyny",
+          "home":"sprężyny, sprężyna, dostawca sprężyn, wyroby metalowe, branża górnicza, branża rolnicza, branża budowlana, wysokiej jakości sprężyny, zastosowanie sprężyn",
+          "form":"sprężyny zapytanie, dostawca sprężyn, sprężyny od ręki, szybka dostawa sprężyn, najwyższa jakość sprężyn, sprezyny dostepnosc, dostępność wyrobów metalowych",
+          "contact":"sprężyny kontakt, dostawa sprężyn kontakt, sprezyny zapytanie, wyroby metalowe, spreżyny, sprężyna, dostawca sprężyn"
+    }
 }

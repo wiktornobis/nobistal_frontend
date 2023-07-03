@@ -1,0 +1,31 @@
+@import '../../[locale]/params';
+
+.about {
+   margin-top: $spacing-xxl;
+   @include  desktop {
+      margin-top: 80px;
+   }
+   @include mobile {
+      margin-top: $spacing-lg;
+   }
+   &_text {
+      color: $color-text;
+      margin: $spacing-md 0;
+      line-height: 1.6;
+      font-weight: 300;
+      @include full-hd {
+         font-size: 20px !important;
+      }
+      @include mobile {
+        margin: $spacing-sm 0;
+        font-size: 16px !important;
+      }
+   }
+   &_sectors {
+      margin-top: $spacing-md;
+      font-size: 24px !important;
+      @include mobile {
+         font-size: 20px !important;
+      }
+   }
+}

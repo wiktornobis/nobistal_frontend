@@ -1,7 +1,202 @@
 {
-  "Index": {
-    "title": "Cześć Świat!!",
-    "subtitle": "Jak jest?",
-    "alertMessage": "Czasami źle!"
-  }
+    "Head": {
+      "mainPage": "Strona Główna",
+      "products": "Produkty",
+      "form": "Formularz",
+      "contact": "Kontakt",
+      "title1": "Najwysza jakość",
+      "title2": "2-letnia gwarancja"
+    },
+    "about": {
+        "title": "O nas",
+        "text": "Firma Nobi-Stal jest ekspertem w dziedzinie produkcji sprężyn i sit. Klientami Nobi-Stal są firmy z całego świata, którzy wykorzystują nasze produkty w branży górniczej, rolniczej, budowlanej, energetycznej. Nasze sprężyny charakteryzują się bardzo dobrymi własnościami wytrzymałościowymi gdyż wykorzystują zaawansowaną technologię produkcyjną. Branże takie jak: rolnicza, górnicza, budowlana, energetyczna wymagają podzespołów, które sprostają trudnym warunkom i zapewnią długą żywotność maszyn. Nasze sprężyny stosowane są m.in.: traktorach, kombajnach, pługach. Na specjalne zamówienie oferujemy sprężyny wykorzystywane w maszynach do spulchniania gleby.",
+        "sectors": "Zastosowanie naszych sprężyn"
+    },
+    "sectors": {
+        "industry1": "Budownictwo",
+        "industry2": "Rolnictwo",
+        "industry3": "Górnictwo"
+    },
+    "subpageProducts": {
+        "title": "Wszystkie produkty firmy Nobi-Stal są dostępne po uprzednim zamówieniu.",
+        "text": " NOBI-STAL specjalizuje się w produkcji sprężyn technicznych zarówno w dużych ilościach jak i w pojedynczych zamówieniach.W przypadku sprężyn specjalnych Nobi-Stal ma możliwość produkcji na specjalne zamówienie klienta.",
+        "industry3": "Górnictwo"
+    },
+    "subpageProductsInformation": {
+        "product": "Produkty",
+        "productOneTitle": "Sprężyny ściskowe",
+        "productTwoTitle": "Sprężyny naciągowe",
+        "productThreeTitle": "Sprężyny skrętne",
+        "productFourTitle": "Sprężyny talerzowe",
+        "productFiveTitle": "Sprężyny faliste",
+        "productSixTitle": "Formy gięte z drutu",
+        "productSubtitle": "Sprężyny techniczne",
+        "productSubtitleTwo": "Wytworzone na zamówienie",
+        "title": "NOBI-STAL",
+        "text1": "Nobi-stal jest jednym z największych dostawców sprężyn technicznych dostępnych z magazynu. Dzięki szerokiej gamie produktów wysokiej jakości dostarczamy sprężyny szybko i po korzystnej cenie. Wieloletnia tradycja i międzynarodowy charakter firmy sprawia, że rozwiązania Nobi-Stal spełniają wymogi zarówno norm europejskich, UIC, rosyjskich GOST, jak i chińskich TB/T. Innowacyjność, kompetencje technologiczne i konstrukcyjne, kilkadziesiąt lat doświadczenia i chęć podążania za stale rosnącymi wymaganiami Klientów stanowią o jakości oferowanych produktów i rozwiązań.",
+        "text2": "Ciągle poszerzamy naszą ofertę produktową stając się jeszcze lepszym partnerem dla naszych Klientów.",
+        "list1": "Szybka dostawa Katalog sprężyn i standardowych części",
+        "list2": "Dostawa prototypów",
+        "list3": "Stopniowe ceny sprężyn standardowych",
+        "list4": "Najwyższa jakość",
+        "list5": "Guaranteed quality delivery according DIN / NEN / ISO0"
+    },
+    "carouselProducts": {
+        "title": "Nasze produkty",
+        "text": "Posiadamy duże doświadczenie w produkcji, oferujemy możliwość wykonaniasprężyn na specjalne zamówienie.",
+        "item1": "Sprężyny naciągowe",
+        "title1": "Sprężyny techniczne",
+        "item2": "Formy giętę z drutu",
+        "item3": "Sprężyny ściskowe",
+        "item4": "Sprężyny faliste",
+        "item5": "Sprężyny talerzowe"
+    },
+    "doradztwo": {
+        "title": "Potrzebujesz doradztwa?",
+        "text": "wypełnij formularz",
+        "secondTitle": "Produkcja sprężyn oraz sit",
+        "secondText": "Nobi-Stal posiada ogromne doświadczenie i oferuje jedne z największych na rynku możliwości produkcji sprężyn technicznych, sit preferowanych, tkanych, plecionych oraz cięto ciągnionych"
+    },
+    "achievement": {
+        "title": "Dlaczego NOBI-STAL to najlepszy wybór?",
+        "text1": "Zaufana marka",
+        "text2": "Kontrola zapasów",
+        "text3": "Terminowość",
+        "text4": "Ponad 10 lat doświadczenia",
+        "text5": "Sprężyny dostępne od ręki",
+        "text6": "Nasze zamówienia realizujemy zgodnie z terminem"
+    },
+    "catalog": {
+        "title": "Potrzebujesz sprężyn na specjalne zamówienie?",
+        "text1": "Zapoznaj się z naszą szeroką gamą produktów. Kliknij przycisk i pobierz wybrany katalog zawierający wszystkie produkty.",
+        "text2": "Katalog sprężyn",
+        "text3": "Katalog sit",
+        "text4": "Katalog podkładek"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "title2": "Dane kontaktowe",
+        "name": "NAZWA FIRMY:",
+        "address": "ADRES:",
+        "data": "Dane firmy",
+        "numberAccount": "ING BANK Śląski Nr konta:"
+    },
+    "form": {
+        "title": "Skontaktuj się z nami",
+        "error": "Nie udało się wysłać wiadomości!",
+        "success1": "Wiadomość została wysłana!",
+        "success2": "Wkrótce się skontaktujemy.",
+        "send": "Wyślij",
+        "name": "Imię",
+        "text": "Wpisz swoją wiadomość"
+    },
+    "cookie": {
+        "ok": "Akceptuj",
+        "text": "Na tej stronie używamy plików cookies i podobnych funkcji do przetwarzania informacji o urządzeniach końcowych i danych osobowych. Przetwarzanie jest wykorzystywane do celów takich jak integracja treści, usług zewnętrznych i elementów stron trzecich, analiza/pomiary statystyczne, spersonalizowanie reklam oraz integracja mediów społecznościowych."
+    },
+    "popupForm": {
+        "title": "Natychmiastowa wycena!",
+        "subtitle": "Zostaw krótką wiadomość, a my odpowiemy na twoje wszystkie pytania.",
+        "send": "Przejdź do formularza"
+    },
+    "validate": {
+        "min": "Musi zawierać conajmniej 3 znaki!",
+        "trim": "Nie może być spacji!",
+        "name": "Podane imię jest nieprawidłowe!",
+        "email": "Podany e-mail jest nieprawidłowy!",
+        "message": "Wiadomość musi mieć conajmniej 120 znaków!"
+    },
+     "subProduct": {
+        "title": "Produkty",
+        "category": "Sprężyny techniczne",
+        "subtitle": "Sprężyny",
+        "WireBentTitle": "Formy gięte z drutu",
+        "WireBentCategory": "Wytwarzane na zamówienie",
+        "WireBentText": "Sprężyny płytkowe i druciane wykonujemy zawsze według specyfikacji klienta lub modelu. Dostępnych jest wiele opcji, w zależności od konstrukcji. Chcielibyśmy otrzymać od Państwa rysunek, szkic lub model. Posiadamy rozbudowane uniwersalne narzędzia do mniejszych serii. Ponadto nasza własna narzędziownia opracowuje niezbędne narzędzia do produkcji dużych ilości.",
+        "WireBentContent": "Drut znajduje zastosowanie w rozmaitych branżach i sektorach przemysłu. Elementy z drutu wykorzystywane są przede wszystkim w:",
+        "WireBentList1": "Motoryzacji",
+        "WireBentList2": "Elektronice",
+        "WireBentList3": "Przemyśle maszynowym",
+        "WireBentList4": "Stojakach",
+        "WireBentList5": "Urządzeniach",
+        "readMore": "Czytaj więcej",
+        "compression": "Sprężyny ściskowe",
+        "compressionText": " Sprężyny ściskowe można zamówić po uprzednim złożeniu zamówienia. Dzięki najszerszemu asortymentowi sprężyn naciskowych w różnych rozmiarach, Nobi-Stal zapewnia pełne wsparcie. Wszystkie sprężyny naciskowe są szlifowane od 1,0 mm i produkowane zgodnie z normami DIN 2089-1 (EN 13906-1) i DIN 2095-2.",
+        "compressionContent": " Nobi-Stal może wyprodukować sprężyny naciskowe o:",
+        "compressionList1": "Stałym skoku",
+        "compressionList2": "Zmiennym skoku",
+        "compressionList3": "Stożkowym kształtcie",
+        "compressionList4": "Kształcie klepsydry",
+        "compressionList5": "Kształcie beczki",
+        "stretching": "Sprężyny naciągowe",
+        "stretchingText": "  Sprężyny naciągowe wykonane są z drutu o grubości od 0,03 do 20 mm. Nobi-Stal zawsze oblicza sprężyny naciągowe zgodnie z DIN 2089-2 / EN 13906-2.",
+        "stretchingContent": "Nobi-Stal ma możliwość zamontowania na sprężynie naciągowej następujących oczek:",
+        "stretchingList1": "Oczy niemieckie (podwójne / całe / pół)",
+        "stretchingList2": "Haczyki",
+        "stretchingList3": "Angielskie haki",
+        "stretchingList4": "Wkręcane haki",
+        "stretchingList5": "Bez haków",
+        "torsion": "Sprężyny skrętne",
+        "torsionText": "Sprężyny skrętne można zamówić po uprzednim złożeniu zamówienia. Dzięki najszerszemu asortymentowi sprężyn naciskowych w różnych rozmiarach, Nobi-Stal zapewnia pełne wsparcie. Wszystkie sprężyny skrętne są szlifowane od 1,0 mm i produkowane zgodnie z normami DIN 2089-1 (EN 13906-1) i DIN 2095-2.",
+        "torsionCotent": "Nobi-Stal wykonuje następujące kształty do produkcji sprężyn skrętnych:",
+        "torsionList1": "Podwójne sprężyny skrętne",
+        "torsionList2": "Z zakrzywionymi końcami",
+        "torsionList3": "Z zakończeniami hakowymi",
+        "torsionList4": "Skręcone końce",
+        "torsionList5": "Sprężyny skrętne obrócone w dowolnym stopniu",
+        "torsionList6": "Dostosowane końce",
+        "discs": "Sprężyny talerzowe",
+        "discsText": "Sprężyny talerzowe są produkowane w grupie 1, grupie 2 i grupie 3 w seriach A, B i C. Nasze sprężyny talerzowe produkowane są zgodnie z normą DIN EN 16983. Sprężyny talerzowe są stosowane od kolei do mocowań. Sprężyny talerzowe Nobi-STal są produkowane zgodnie z rygorystycznymi normami jakości i zgodnie z charakterystyką obciążenia DIN 2093.",
+        "discsContent": "Zalety w porównaniu do innych typów sprężyn to:",
+        "discsList1": "Może wytrzymać duży nacisk przy niewielkim ugięciu",
+        "discsList2": "Oszczędność miejsca",
+        "discsList3": "Dłuższa żywotność",
+        "discsList4": "Nieodłączne tłumienie, zwłaszcza gdy sprężyny talerzowe są umieszczone jedna na drugiej",
+        "discsList5": "Elastyczna konstrukcja kilku sprężyn talerzowych jedna na drugiej",
+        "discsList6": "Dostosowane końce",
+        "wave": "Sprężyny faliste",
+        "waveText": " Multi Podkładki wielofalowe mogą zastąpić wiele sprężyn naciskowych jednocześnie i są łatwe do wdrożenia. Zamiast obliczać, ile sprężyn naciskowych jest potrzebnych do zastosowania, wystarczy jeden Pierścień wielofalowy. Ułatwia to budowanie i demontaż aplikacji.",
+        "waveContent": "Zalety sprężyn falistych:",
+        "waveList1": "Sprężyny wielofalowe nie mają ruchu kołowego",
+        "waveList2": "Oszczędność miejsca",
+        "waveList3": "Dokładność i powtarzalność parametrów ugięcia",
+        "waveList4": "Uniwersalność"
+    },
+    "headTitle": {
+      "mainPage": "P.P.U.H Nobi-Stal - Producent Sprężyn",
+      "products": "Produkty - Nobistal",
+      "form": "Formularz - Nobistal",
+      "contact": "Kontakt - Nobistal",
+      "springCompression": "Sprężyny Ściskowe - Nobistal",
+      "springStretching": "Sprężyny Naciągowe - Nobistal",
+      "springTorsion": "Sprężyny Naciągowe - Nobistal",
+      "springDiscs": "Sprężyny Talerzowe - Nobistal",
+      "springWave": "Sprężyny Faliste - Nobistal",
+      "wireBentForm": "Formy gięte z drutu - Nobistal"
+    },
+    "headDescription": {
+        "springCompression": "Sprężyny ściskowe o wysokiej jakości. Szeroki wybór i konkurencyjne ceny.",
+        "springStretching": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
+        "springTorsion": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
+        "springDiscs": "Sprężyny talerzowe to innowacyjne elastyczne elementy metalowe, które zapewniają doskonałą kontrolę wstrząsów i drgań w różnych aplikacjach. Wykorzystywane w przemyśle motoryzacyjnym, meblarskim i innych branżach, nasze sprężyny talerzowe cechuje najwyższa jakość, niezawodność i doskonała wydajność.",
+        "springWave": "Sprężyny faliste są elastycznymi elementami metalowymi, które znajdują szerokie zastosowanie w różnych dziedzinach. Charakteryzują się unikalnym wzorem falistym, który zapewnia doskonałą elastyczność i możliwość absorpcji wstrząsów oraz drgań. Nasze sprężyny faliste są wykonane z wysokiej jakości materiałów i cechują się niezawodnością oraz wytrzymałością.",
+        "wireBentForm": "Formy gięte z drutu są wszechstronnymi i elastycznymi rozwiązaniami w różnych branżach. Wykonane z wysokiej jakości drutu metalowego, te formy zapewniają precyzyjne kształtowanie i gięcie zgodnie z indywidualnymi wymaganiami. Doskonale nadają się do zastosowań w przemyśle motoryzacyjnym, meblarskim, elektronice i wielu innych dziedzinach, gdzie precyzja, wytrzymałość i estetyka są kluczowe.",
+        "products": "Oferujemy różnorodne elastyczne rozwiązania sprężynowe, które obejmują sprężyny talerzowe, sprężyny ściskowe, sprężyny naciągowe, sprężyny skrętne i sprężyny faliste. Nasze sprężyny talerzowe są doskonałe do absorpcji wstrząsów i drgań, zapewniając równowagę i stabilność w branżach motoryzacyjnej, przemysłowej i meblarskiej. Natomiast sprężyny faliste, sprężyny ściskowe i sprężyny naciągowe, oferując elastyczność i precyzyjne gięcie. Oferujemy spersonalizowane rozwiązania sprężynowe, które są wykonane z wysokiej jakości materiałów, gwarantując niezawodność, wytrzymałość i doskonałą jakość.",
+        "home": "Producent i dostawca sprężyn i sit. Nobistal jest ekspertem w dziedzinie produkcji sprężyn i sit. Nasze sprężyny stosowane są m.in.: traktorach, kombajnach, pługach.",
+        "form": "Nasz formularz na stronie to wygodne narzędzie, które umożliwia łatwe i szybkie przekazywanie informacji. Dzięki temu formularzowi możesz skontaktować się z nami, zadać pytanie, złożyć zamówienie lub zgłosić swoje zainteresowanie naszymi produktami lub usługami.",
+        "contact": "Nasz kontakt to kluczowy sposób na nawiązanie bezpośredniego połączenia z nami. Dzięki naszym danym kontaktowym, możesz szybko i łatwo skontaktować się z naszym zespołem i uzyskać potrzebną pomoc, informacje lub wsparcie. Bez względu na to, czy masz pytania dotyczące naszych produktów, zamówień, usług czy innych zapytań, nasz kontakt pozwoli Ci skutecznie skomunikować się z nami."
+
+    },
+    "headKeyWords": {
+          "springCompression": "sprężyny ściskowe, sprężyna ściskowa, sprężyna, sprezyny sciskowe, sprezyny, sprezyna, sprężyny ściskowe do maszyn, sprężyny do urządzeń",
+          "springStretching": "sprężyny naciągowe, sprężyna naciągowa, sprężyna, sprezyny, sprezyna,sprezyny naciagowe, sprężyny elastyczne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn naciągowych",
+          "springTorsion": "sprężyny skrętne, sprężyna skrętna, sprężyna, sprezyny skretne, sprezyny, sprezyna, sprężyny torsyjne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn skrętnych",
+          "springDiscs": "sprężyny talerzowe, sprężyna talerzowa, sprężyna, sprezyny, sprezyna, sprezyny talerzowe, elastyczne elementy metalowe, dopasowane sprężyny talerzowe, zastosowanie sprężyn talerzowych",
+          "springWave": "sprężyny faliste, sprężyna falista, sprężyna, sprezyny, sprezyna, sprezyny faliste, elastyczne elementy metalowe, wzór falisty, niezawodność sprężyn falistych, absorpcja wstrząsów i drgań, zastosowanie sprężyn falistych",
+          "wireBentForm": "formy gięte, gięta forma z drutu, gieta forma, wyroby z drutu, wyroby stalowe, elastyczne elementy metalowe, wykorzystanie wyrobów metalowych",
+          "products": "sprężyny, sprężyny ściskowe, sprężyny talerzowe, sprężyny skrętne, sprężyny faliste, spreżyny naciągowe, sprezyny, sprezyna, wyroby metalowe, wytrzymałe sprężyny, wysoka jakosc sprezyny",
+          "home":"sprężyny, sprężyna, dostawca sprężyn, wyroby metalowe, branża górnicza, branża rolnicza, branża budowlana, wysokiej jakości sprężyny, zastosowanie sprężyn",
+          "form":"sprężyny zapytanie, dostawca sprężyn, sprężyny od ręki, szybka dostawa sprężyn, najwyższa jakość sprężyn, sprezyny dostepnosc, dostępność wyrobów metalowych",
+          "contact":"sprężyny kontakt, dostawa sprężyn kontakt, sprezyny zapytanie, wyroby metalowe, spreżyny, sprężyna, dostawca sprężyn"
+    }
 }

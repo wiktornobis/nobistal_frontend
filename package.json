@@ -1,6 +1,7 @@
 {
-  "name": "next-js-13-intl",
+  "name": "nobistal_frontend",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,6 +14,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "aos": "^2.3.4",
     "install": "^0.13.0",
     "next": "13.4.3",
     "next-intl": "2.15.0-beta.3",
