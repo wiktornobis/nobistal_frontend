@@ -1,0 +1,77 @@
+@import "../../[locale]/params";
+
+.information {
+    &_first_container {
+        display: flex;
+        align-items: center;
+        &_title {
+            font-size: 28px;
+            color: $color-primary;
+        }
+        &_text {
+            color: $color-text;
+            margin-left: $spacing-xxl;
+            border-bottom: 1px solid black;
+            @include tablet {
+                margin-left: $spacing-xl;
+            }
+            @include mobile {
+                margin-left: $spacing-sm;
+                font-size: 11px !important;
+            }
+            &:hover {
+               border-bottom: 2px solid black;
+               font-weight: 500;
+            }
+        }
+        &_icon {
+            width: 20px;
+            height: 20px;
+            color: $color-primary;
+            padding-right: $spacing-sm;
+        }
+
+    }
+    &_second_container {
+        margin: $spacing-xl $spacing-md;
+        background-color: $color-primary;
+        padding: 0 $spacing-md;
+        color: $color-white;
+        position: relative;
+        @include mobile {
+            margin: $spacing-lg 13px;
+            padding: 0 $spacing-sm;
+        }
+        &_title {
+            padding-top: $spacing-md;
+            padding-bottom: $spacing-lg;
+            color: $color-white;
+            @include mobile {
+                padding-top: $spacing-sm;
+                padding-bottom: $spacing-sm;
+            }
+        }
+        &_text {
+            font-size: 24px;
+            padding-right: 20%;
+            line-height: 1.5;
+            font-weight: 300;
+            @include mobile {
+                padding-right: 0;
+            }
+        }
+
+    }
+    .img {
+        padding-left: 40%;
+        position: relative;
+        left: 85px;
+        top: 60px;
+        @include mobile {
+            left: 50%;
+            top: 50px;
+            transform: translateX(-50%) !important;
+            padding: 0;
+        }
+    }
+}

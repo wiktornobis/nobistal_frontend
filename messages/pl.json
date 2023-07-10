@@ -7,12 +7,12 @@
       "title1": "Najwysza jakość",
       "title2": "2-letnia gwarancja"
     },
-    "about": {
+    "About": {
         "title": "O nas",
         "text": "Firma Nobi-Stal jest ekspertem w dziedzinie produkcji sprężyn i sit. Klientami Nobi-Stal są firmy z całego świata, którzy wykorzystują nasze produkty w branży górniczej, rolniczej, budowlanej, energetycznej. Nasze sprężyny charakteryzują się bardzo dobrymi własnościami wytrzymałościowymi gdyż wykorzystują zaawansowaną technologię produkcyjną. Branże takie jak: rolnicza, górnicza, budowlana, energetyczna wymagają podzespołów, które sprostają trudnym warunkom i zapewnią długą żywotność maszyn. Nasze sprężyny stosowane są m.in.: traktorach, kombajnach, pługach. Na specjalne zamówienie oferujemy sprężyny wykorzystywane w maszynach do spulchniania gleby.",
         "sectors": "Zastosowanie naszych sprężyn"
     },
-    "sectors": {
+    "Sectors": {
         "industry1": "Budownictwo",
         "industry2": "Rolnictwo",
         "industry3": "Górnictwo"
@@ -41,7 +41,7 @@
         "list4": "Najwyższa jakość",
         "list5": "Guaranteed quality delivery according DIN / NEN / ISO0"
     },
-    "carouselProducts": {
+    "CarouselProducts": {
         "title": "Nasze produkty",
         "text": "Posiadamy duże doświadczenie w produkcji, oferujemy możliwość wykonaniasprężyn na specjalne zamówienie.",
         "item1": "Sprężyny naciągowe",
@@ -51,13 +51,13 @@
         "item4": "Sprężyny faliste",
         "item5": "Sprężyny talerzowe"
     },
-    "doradztwo": {
+    "Consulting": {
         "title": "Potrzebujesz doradztwa?",
-        "text": "wypełnij formularz",
+        "text": "zostaw wiadomość",
         "secondTitle": "Produkcja sprężyn oraz sit",
         "secondText": "Nobi-Stal posiada ogromne doświadczenie i oferuje jedne z największych na rynku możliwości produkcji sprężyn technicznych, sit preferowanych, tkanych, plecionych oraz cięto ciągnionych"
     },
-    "achievement": {
+    "Achievement": {
         "title": "Dlaczego NOBI-STAL to najlepszy wybór?",
         "text1": "Zaufana marka",
         "text2": "Kontrola zapasów",
@@ -66,14 +66,14 @@
         "text5": "Sprężyny dostępne od ręki",
         "text6": "Nasze zamówienia realizujemy zgodnie z terminem"
     },
-    "catalog": {
+    "Catalog": {
         "title": "Potrzebujesz sprężyn na specjalne zamówienie?",
         "text1": "Zapoznaj się z naszą szeroką gamą produktów. Kliknij przycisk i pobierz wybrany katalog zawierający wszystkie produkty.",
         "text2": "Katalog sprężyn",
         "text3": "Katalog sit",
         "text4": "Katalog podkładek"
     },
-    "contact": {
+    "Contact": {
         "title": "Kontakt",
         "title2": "Dane kontaktowe",
         "name": "NAZWA FIRMY:",
@@ -81,7 +81,7 @@
         "data": "Dane firmy",
         "numberAccount": "ING BANK Śląski Nr konta:"
     },
-    "form": {
+    "Form": {
         "title": "Skontaktuj się z nami",
         "error": "Nie udało się wysłać wiadomości!",
         "success1": "Wiadomość została wysłana!",
@@ -90,23 +90,23 @@
         "name": "Imię",
         "text": "Wpisz swoją wiadomość"
     },
-    "cookie": {
+    "Cookie": {
         "ok": "Akceptuj",
         "text": "Na tej stronie używamy plików cookies i podobnych funkcji do przetwarzania informacji o urządzeniach końcowych i danych osobowych. Przetwarzanie jest wykorzystywane do celów takich jak integracja treści, usług zewnętrznych i elementów stron trzecich, analiza/pomiary statystyczne, spersonalizowanie reklam oraz integracja mediów społecznościowych."
     },
-    "popupForm": {
+    "PopupForm": {
         "title": "Natychmiastowa wycena!",
         "subtitle": "Zostaw krótką wiadomość, a my odpowiemy na twoje wszystkie pytania.",
         "send": "Przejdź do formularza"
     },
-    "validate": {
+    "Validate": {
         "min": "Musi zawierać conajmniej 3 znaki!",
         "trim": "Nie może być spacji!",
         "name": "Podane imię jest nieprawidłowe!",
         "email": "Podany e-mail jest nieprawidłowy!",
         "message": "Wiadomość musi mieć conajmniej 120 znaków!"
     },
-     "subProduct": {
+     "SubProduct": {
         "title": "Produkty",
         "category": "Sprężyny techniczne",
         "subtitle": "Sprężyny",
@@ -162,7 +162,7 @@
         "waveList3": "Dokładność i powtarzalność parametrów ugięcia",
         "waveList4": "Uniwersalność"
     },
-    "headTitle": {
+    "HeadTitle": {
       "mainPage": "P.P.U.H Nobi-Stal - Producent Sprężyn",
       "products": "Produkty - Nobistal",
       "form": "Formularz - Nobistal",
@@ -174,7 +174,7 @@
       "springWave": "Sprężyny Faliste - Nobistal",
       "wireBentForm": "Formy gięte z drutu - Nobistal"
     },
-    "headDescription": {
+    "HeadDescription": {
         "springCompression": "Sprężyny ściskowe o wysokiej jakości. Szeroki wybór i konkurencyjne ceny.",
         "springStretching": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
         "springTorsion": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
@@ -187,7 +187,7 @@
         "contact": "Nasz kontakt to kluczowy sposób na nawiązanie bezpośredniego połączenia z nami. Dzięki naszym danym kontaktowym, możesz szybko i łatwo skontaktować się z naszym zespołem i uzyskać potrzebną pomoc, informacje lub wsparcie. Bez względu na to, czy masz pytania dotyczące naszych produktów, zamówień, usług czy innych zapytań, nasz kontakt pozwoli Ci skutecznie skomunikować się z nami."
 
     },
-    "headKeyWords": {
+    "HeadKeyWords": {
           "springCompression": "sprężyny ściskowe, sprężyna ściskowa, sprężyna, sprezyny sciskowe, sprezyny, sprezyna, sprężyny ściskowe do maszyn, sprężyny do urządzeń",
           "springStretching": "sprężyny naciągowe, sprężyna naciągowa, sprężyna, sprezyny, sprezyna,sprezyny naciagowe, sprężyny elastyczne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn naciągowych",
           "springTorsion": "sprężyny skrętne, sprężyna skrętna, sprężyna, sprezyny skretne, sprezyny, sprezyna, sprężyny torsyjne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn skrętnych",

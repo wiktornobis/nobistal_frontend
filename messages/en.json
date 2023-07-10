@@ -7,12 +7,12 @@
       "title1": "Highest quality",
       "title2": "2-year warranty"
     },
-    "about": {
+    "About": {
         "title": "About Us",
         "text": "Nobi-Stal is an expert in the production of springs and metal screens. Nobi-Stal's customers are companies from all over the world who use our products in the mining, agricultural, construction, energy industries. Our springs are characterized by very good strength properties because they use advanced production technology. Industries such as agriculture, mining, construction, energy require components that will stand up to harsh conditions and ensure long service life of machinery. Our springs are used, among others: tractors, harvesters, plows. On special order we offer springs used in soil loosening machines.",
         "sectors": "The use of our springs"
     },
-    "sectors": {
+    "Sectors": {
         "industry1": "Construction",
         "industry2": "Agriculture",
         "industry3": "Mining"
@@ -41,7 +41,7 @@
         "list4": "Highest quality",
         "list5": "Guaranteed quality delivery according DIN / NEN / ISO0"
     },
-    "carouselProducts": {
+    "CarouselProducts": {
         "title": "Our products",
         "text": "We have a lot of experience in production, and we offer the possibility of making springs on special order.",
         "item1": "Tension springs",
@@ -51,13 +51,13 @@
         "item4": "Corrugated springs",
         "item5": "Disc springs"
     },
-    "doradztwo": {
+    "Consulting": {
         "title": "Do you need advice?",
-        "text": "fill in the form",
+        "text": "leave a message",
         "secondTitle": "Manufacturing of springs and metal screens",
         "secondText": "Nobi-Stal has huge experience and offers one of the largest capacities in the market for the production of technical springs, preferred, woven, braided and expanded metal metal screens"
     },
-    "achievement": {
+    "Achievement": {
         "title": "Why is NOBI-STAL the best choice?",
         "text1": "Trusted brand",
         "text2": "Inventory Control",
@@ -66,14 +66,14 @@
         "text5": "Springs available from stock",
         "text6": "We fulfill our orders according to the deadline"
     },
-    "catalog": {
+    "Catalog": {
         "title": "Do you need special order springs?",
         "text1": "Explore our wide range of products. Click the button and download the selected catalog containing all products.",
         "text2": "Spring Catalog",
         "text3": "Sieve Catalog",
         "text4": "Washer catalog"
     },
-    "contact": {
+    "Contact": {
         "title": "Contact",
         "title2": "Contact details",
         "name": "COMPANY NAME:",
@@ -81,7 +81,7 @@
         "data": "Company details",
         "numberAccount": "ING BANK Śląski Account number:"
     },
-    "form": {
+    "Form": {
         "title": "Contact us",
         "error": "Failed to send a message!",
         "success1": "The message has been sent!",
@@ -90,23 +90,23 @@
         "name": "Name",
         "text": "Type your message"
     },
-    "cookie": {
+    "Cookie": {
         "ok": "Accept",
         "text": "On this site, we use cookies and similar functions to process end device information and personal data. Processing is used for purposes such as integration of content, external services and third-party elements, statistical analysis/measurement, personalized advertising and social media integration."
     },
-     "popupForm": {
+     "PopupForm": {
         "title": "Instant Pricing!",
         "subtitle": "Leave a short message and we will answer all your questions.",
         "send": "Go to form"
     },
-      "validate": {
+      "Validate": {
         "min": "Must contain at least 3 characters!",
         "trim": "There must be no spaces!",
         "name": "The given name is invalid!",
         "email": "The specified email is invalid!",
         "message": "The message must be at least 120 characters long!"
     },
-    "subProduct": {
+    "SubProduct": {
         "title": "Products",
         "category": "Technical springs",
         "subtitle": "Springs",
@@ -162,7 +162,7 @@
         "waveList3": "Accuracy and repeatability of deflection parameters",
         "waveList4": "Versatility"
     },
-    "headTitle": {
+    "HeadTitle": {
       "mainPage": "P.P.U.H Nobi-Stal - Producent Sprężyn",
       "products": "Produkty - Nobistal",
       "form": "Formularz - Nobistal",
@@ -174,7 +174,7 @@
       "springWave": "Sprężyny Faliste - Nobistal",
       "wireBentForm": "Formy gięte z drutu - Nobistal"
     },
-    "headDescription": {
+    "HeadDescription": {
         "springCompression": "Sprężyny ściskowe o wysokiej jakości. Szeroki wybór i konkurencyjne ceny.",
         "springStretching": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
         "springTorsion": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
@@ -187,7 +187,7 @@
         "contact": "Nasz kontakt to kluczowy sposób na nawiązanie bezpośredniego połączenia z nami. Dzięki naszym danym kontaktowym, możesz szybko i łatwo skontaktować się z naszym zespołem i uzyskać potrzebną pomoc, informacje lub wsparcie. Bez względu na to, czy masz pytania dotyczące naszych produktów, zamówień, usług czy innych zapytań, nasz kontakt pozwoli Ci skutecznie skomunikować się z nami."
 
     },
-    "headKeyWords": {
+    "HeadKeyWords": {
           "springCompression": "sprężyny ściskowe, sprężyna ściskowa, sprężyna, sprezyny sciskowe, sprezyny, sprezyna, sprężyny ściskowe do maszyn, sprężyny do urządzeń",
           "springStretching": "sprężyny naciągowe, sprężyna naciągowa, sprężyna, sprezyny, sprezyna,sprezyny naciagowe, sprężyny elastyczne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn naciągowych",
           "springTorsion": "sprężyny skrętne, sprężyna skrętna, sprężyna, sprezyny skretne, sprezyny, sprezyna, sprężyny torsyjne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn skrętnych",

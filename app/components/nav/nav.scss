@@ -76,9 +76,8 @@
             padding-left: $spacing-sm;
             &::before {
                 content: '';
-                background: url('../../img/nobistal.png');
+                background: url('../../img/nobistal.png') no-repeat;
                 background-size: contain;
-                background-repeat: no-repeat;
                 width: 120px;
                 height: 65px;
                 cursor: pointer;

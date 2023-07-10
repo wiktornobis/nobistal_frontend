@@ -1,9 +1,12 @@
 @import './params';
 
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-family: $font-family;
+  font-size: $size-base-font;
 }
 
 html,
@@ -12,7 +15,181 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  @include mobile {
+    margin-bottom: 3rem;
+  }
+  margin: 0 auto;
+  .general-container {
+    @include base-width();
+  }
+}
+.is-loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
 a {
-  color: inherit;
   text-decoration: none;
+  display: flex;
+  color: inherit;
+}
+h2 {
+  font-size: 42px;
+  color: #2c2c2c;
+}
+h3 {
+  font-size: 30px;
+  color: $color-text;
+  font-weight: 300;
+  @include full-hd {
+    font-size: 24px;
+  }
+}
+p {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+  color: $color-text;
+  font-weight: 300;
+}
+button{
+  border: none;
+}
+li {
+  list-style: none;
+  font-size: 24px;
+}
+.defer-image {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+  background: transparent;
+}
+
+
+@include full-hd {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px !important;
+  }
+  h4 {
+    font-size: 16px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+  li {
+    font-size: 16px !important;
+  }
+
+}
+@include desktop {
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+  h4 {
+    font-size: 14px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  li {
+    font-size: 14px !important;
+  }
+
+}
+@include tablet {
+  h2 {
+    font-size: 22px !important;
+  }
+  h3 {
+    font-size: 14px !important;
+  }
+  h4 {
+    font-size: 12px !important;
+  }
+  p {
+    font-size: 14px !important;
+  }
+  li {
+    font-size: 13px !important;
+  }
+}
+@include mobile {
+  h2 {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 14px !important;
+  }
+  h4 {
+    font-size: 14px !important;
+  }
+  p {
+    font-size: 13px !important;
+  }
+  li {
+    font-size: 13px !important;
+  }
+}
+
+.CookieConsent {
+  max-width: 420px;
+  height: auto;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center !important;
+  padding: 30px 20px;
+  border-radius: 3px;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 20% !important;
+  margin: 0 auto;
+  text-align: justify;
+  background: rgb(226, 226, 226);
+  @include mobile {
+    max-width: 90%;
+  }
+  button {
+    text-transform: uppercase;
+    background: rgb(16, 16, 16) !important;
+    border-radius: 6px !important;
+    @include mobile {
+      font-size: 12px !important;
+    }
+  }
+  span {
+    @include mobile {
+      font-size: 13px !important;
+    }
+  }
+  div {
+    &:first-of-type {
+      flex: 1 0 320px !important;
+      @include mobile {
+        flex: 1 0 300px !important;
+      }
+    }
+  }
+  .logo {
+    width: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    @include mobile {
+      width: 130px;
+    }
+  }
 }

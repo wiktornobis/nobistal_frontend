@@ -4,6 +4,11 @@ import AlertMessage from "./AlertMessage";
 import Nav from "../components/nav/Nav";
 import Head from "next/head";
 import AboutUs from '../components/AboutUs/AboutUs';
+import Sectors from "@/app/components/sectors/Sectors";
+import ProductsCarousel from "@/app/components/products/ProductsCarousel";
+import Consulting from "@/app/components/consulting/Consulting";
+import Achievement from "@/app/components/achievement/Achievement";
+import Catalog from "@/app/components/catalog/Catalog";
 
 export default function Home() {
   // const t = useTranslations("Index");
@@ -18,7 +23,11 @@ export default function Home() {
       {/*<meta name="description" data-react-helmet="true" content={t("title")} />*/}
         <Nav />
         <AboutUs />
-
+        <Sectors />
+        <ProductsCarousel />
+        <Consulting />
+        <Achievement />
+        <Catalog />
 
       </>
   );

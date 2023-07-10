@@ -4,7 +4,7 @@ import Image from 'next/image'
 import anglia from '../../img/flaga_w_brytanii.jpeg';
 import polska from '../../img/flaga_polska.jpg';
 import HamburgerMenu from "./HamburgerMenu";
-import './_nav.scss';
+import './nav.scss';
 import Link from "next-intl/link";
 import {useTranslations} from "next-intl";
 
