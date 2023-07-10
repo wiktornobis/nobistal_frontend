@@ -3,7 +3,7 @@
 import { Button } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
 import { TrackGoogleAnalyticsEvent } from '@/Ga4';
-
+import * as React from "react";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import './catalog.scss';

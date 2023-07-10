@@ -1,0 +1,127 @@
+@import "../../[locale]/params";
+
+.products_main {
+    background-color: $color-primary;
+    &_container {
+        display: flex;
+        flex-direction: column;
+        padding-top: $spacing-xl;
+        padding-bottom: $spacing-md;
+        gap: $spacing-sm;
+        width: 60%;
+        @include tablet {
+            width: 70%;
+            gap: $spacing-sm;
+            padding: $spacing-md 0;
+        }
+        @include mobile {
+            width: 90%;
+            gap: $spacing-sm;
+            padding: $spacing-md 0;
+        }
+        &_title {
+            color: white;
+        }
+        &_text {
+            color: white;
+            line-height: 1.6;
+            font-weight: 300;
+            padding: $spacing-md 0;
+            @include mobile {
+                padding: $spacing-sm 0;
+            }
+        }
+    }
+}
+.products_main_products {
+    margin: $spacing-xl;
+    &_title {
+        margin: $spacing-md 0;
+        font-size: 22px !important;
+        font-weight: 700;
+        @include full-hd {
+            font-size: 20px !important;
+        }
+        @include mobile {
+            font-size: 18px !important;
+        }
+    }
+    .items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: $spacing-sm;
+        @include tablet {
+            grid-template-columns: 1fr 1fr;
+        }
+        @include mobile {
+            grid-template-columns: 1fr;
+        }
+        &_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: $spacing-sm;
+            width: 100%;
+            background-color: $color-column;
+            padding: $spacing-md $spacing-sm;
+            cursor: pointer;
+            transition: transform 0.3s;
+            &:hover {
+                transform: translateY(-40px);
+            }
+            &_img {
+                margin: 0 auto;
+                height: 400px;
+                width: 220px;
+                padding: 60px 0;
+                @include full-hd {
+                    height: 200px;
+                    width: 170px;
+                    padding: 0;
+                }
+                @include desktop {
+                    height: 150px;
+                    width: 120px;
+                }
+                @include tablet {
+                    height: 150px;
+                    width: 120px;
+                }
+                @include mobile {
+                    height: 180px;
+                    width: 150px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    .information {
+        margin: $spacing-xl 0;
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-sm;
+        &_text {
+            line-height: 1.6;
+            font-weight: 300;
+        }
+        &_list {
+            margin-left: $spacing-md;
+            margin-top: $spacing-md;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            @include mobile {
+                margin-left: $spacing-sm;
+                margin-top: $spacing-sm;
+            }
+            & li {
+                list-style:disc;
+                color: rgb(182, 182, 182);
+                padding-left: 10px;
+            }
+        }
+    }
+}
+

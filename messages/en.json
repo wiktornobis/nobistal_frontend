@@ -17,12 +17,12 @@
         "industry2": "Agriculture",
         "industry3": "Mining"
     },
-    "subpageProducts": {
+    "SubpageProducts": {
         "title": "All Nobi-Stal products are available upon ordering.",
         "text": "NOBI-STAL specializes in the production of technical springs both in large quantities and in single orders.In the case of special springs, Nobi-Stal has the ability to produce to the customer's special order.",
         "industry3": "Górnictwo"
     },
-    "subpageProductsInformation": {
+    "SubpageProductsInformation": {
         "product": "Products",
         "productOneTitle": "Compression springs",
         "productTwoTitle": "Tension springs",
@@ -32,6 +32,8 @@
         "productSixTitle": "Wire bent forms",
         "productSubtitle": "Technical springs",
         "productSubtitleTwo": "Made to order",
+        "mainTitle": "All Nobi-Stal products are available upon ordering.",
+        "mainText": "NOBI-STAL specializes in the production of technical springs both in large quantities and in single orders.In the case of special springs, Nobi-Stal has the ability to produce to the customer's special order.",
         "title": "NOBI-STAL",
         "text1": "Nobi-stal is one of the largest suppliers of technical springs available from stock. With a wide range of high quality products we deliver springs quickly and at a favorable price. The long tradition and international character of the company makes, that Nobi-Stal solutions meet the requirements of both European standards, UIC, Russian GOST, as well as Chinese TB/T. Innovation, competence technological and design competence, several decades of experience and the desire to to follow the ever-increasing requirements of customers constitute the quality of the products and solutions offered.",
         "text2": "We are constantly expanding our product offerings becoming an even better partner for our customers.",
