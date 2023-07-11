@@ -1,0 +1,206 @@
+@import "../../[locale]/params";
+#kontakt {
+    // background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.17) 0%, rgba(0, 0, 0, 0.9));
+    // background: url('../../../assets/tlo-sprezyny.jpg');
+    // background-size: cover;
+    padding: $spacing-md 0;
+    height: 100vh;
+}
+
+.contact_form {
+     &_right {
+        height: 670px;
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: $color-column;
+        padding: 60px 20px 20px 20px;
+        border-radius: 5px;
+        position: relative;
+        @include desktop {
+            padding: 40px 20px 20px 20px;
+            height: 570px;
+        }
+        @include mobile {
+            width: 90%;
+            height: 500px;
+            padding: 40px 20px 20px 20px;
+        }
+        .logo {
+            width: 40%;
+            margin-bottom: 30px;
+            height: 100px;
+            @include desktop {
+                margin-bottom: 15px;
+                width: 35%;
+            }
+        }
+        &_title {
+            font-size: 22px !important;
+            font-weight: 700;
+            padding-top: 30px;
+            @include desktop {
+                padding-top: 20px;
+                font-size: 20px !important;
+            }
+            @include mobile {
+                padding-top: 0;
+                font-size: 16px !important;
+            }
+        }
+
+        &_form {
+            width: 100%;
+            margin-top: 80px;
+            @include desktop {
+                margin-top: 40px;
+            }
+            @include mobile {
+                margin-top: 30px;
+            }
+
+            &_first {
+                display: flex;
+                gap: 20px;
+                &-name {
+                    width: 100%;
+                }
+                &-name input {
+                    padding: 5px 0;
+                    border: none;
+                    border-bottom: 2px solid black;
+                    border-radius: 0;
+                    font-size: 18px;
+                    outline: none;
+                    width: 100%;
+                    @include tablet {
+                        font-size: 16px;
+                    }
+                }
+                &-text {
+                    margin-top: 50px;
+                    display: flex;
+                    flex-direction: column;
+                    &-area {
+                        padding: 10px 0;
+                        height: 105px;
+                        border: none;
+                        border-bottom: 2px solid black;
+                        font-size: 18px;
+                        outline: none;
+                        resize: none;
+                        border-radius: 0;
+                        @include tablet {
+                            font-size: 16px;
+                        }
+                    }
+                }
+                &-btn {
+                    position: absolute;
+                    right: 20px;
+                    bottom: 20px;
+                    button {
+                        font-size: 16px;
+                    }
+                    @include desktop {
+                        margin-top: 40px;
+                    }
+
+                    &-submit {
+                        font-size: 18px;
+                        font-weight: 300;
+                        border: 1px solid black;
+                        padding: 13px 52px;
+                        background-color: white;
+                        cursor: pointer;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    margin: 0;
+}
+
+label {
+    font-size: 16px;
+
+    @include desktop {
+        font-size: 14px;
+    }
+}
+label b {
+    color: red;
+    font-weight: 400;
+}
+
+.error {
+position: relative;
+top: 5px;
+color: red;
+font-size: 14px;
+
+@include desktop {
+    font-size: 12px;
+}
+
+    &::after {
+        content: '';
+        height: 2px;
+        width: 100%;
+        background-color: red;
+        display: block;
+        position: absolute;
+        top: -7px;
+    }
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+::placeholder {
+    opacity: 0.3;
+
+}
+input, textarea {
+    background: transparent;
+    color: black;
+}
+
+.error-send {
+    color: red;
+    text-align: center;
+    position: relative;
+    bottom: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    height: 0;
+    @include mobile {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+.success-send {
+    color: green;
+    text-align: center;
+    position: relative;
+    bottom: 38px;
+    font-size: 16px;
+    font-weight: 600;
+    @include mobile {
+        font-size: 14px;
+        &:first-of-type {
+            margin-top: 15px;
+        }
+    }
+}

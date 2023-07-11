@@ -1,14 +1,17 @@
 import { useTranslations } from "next-intl";
 import Link from "next-intl/link";
 import AlertMessage from "./AlertMessage";
-import Nav from "../components/nav/Nav";
+
 import Head from "next/head";
-import AboutUs from '../components/AboutUs/AboutUs';
+
 import Sectors from "@/app/components/sectors/Sectors";
 import ProductsCarousel from "@/app/components/products/ProductsCarousel";
 import Consulting from "@/app/components/consulting/Consulting";
 import Achievement from "@/app/components/achievement/Achievement";
 import Catalog from "@/app/components/catalog/Catalog";
+import Footer from "@/app/components/footer/Footer";
+import Nav from "@/app/components/nav/Nav";
+import AboutUs from "@/app/components/aboutUs/AboutUs";
 
 export default function Home() {
   // const t = useTranslations("Index");
@@ -28,7 +31,7 @@ export default function Home() {
         <Consulting />
         <Achievement />
         <Catalog />
-
+        <Footer />
       </>
   );
 }

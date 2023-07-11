@@ -19,6 +19,7 @@
     "@mui/icons-material": "^5.13.7",
     "@mui/material": "^5.13.7",
     "aos": "^2.3.4",
+    "axios": "^1.4.0",
     "install": "^0.13.0",
     "next": "13.4.3",
     "next-intl": "2.15.0-beta.3",
