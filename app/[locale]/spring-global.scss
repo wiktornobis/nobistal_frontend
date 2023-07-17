@@ -1,0 +1,110 @@
+@import './params';
+.springs-background {
+    background-color: $color-column;
+}
+.spring-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 0;
+    font-size: 30px;
+    height: 100%;
+    &-img {
+        width: 30px;
+        height: 30px;
+    }
+    &-back {
+        font-size: 15px;
+        cursor: pointer;
+        &:hover {
+            color: $color-text-dark;
+            text-decoration: underline;
+        }
+        @include mobile {
+            font-size: 14px !important;
+        }
+
+    }
+    &-current {
+        font-size: 16px;
+        font-weight: bold;
+        position: relative;
+    }
+}
+
+.spring-compression {
+    display: flex;
+    padding-bottom: $spacing-xl;
+    gap: $spacing-lg;
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: $spacing-md;
+        &:nth-child(1) {
+            align-items: center;
+        }
+    }
+    .left-container {
+        margin-top: $spacing-sm;
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-sm;
+        width: 60%;
+        @include mobile {
+            width: 100%;
+            order: 2;
+        }
+        .spring-text {
+            line-height: 1.7;
+            padding: 10px 0 0px 20px;
+            font-weight: 300;
+        }
+        .read-more {
+            padding: 30px 20px;
+            color: $color-primary;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .right-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 40%;
+        @include mobile {
+            width: 100%;
+            order: 1;
+            padding: 0 15%;
+        }
+        &-img {
+            width: 70%;
+            padding-top: 90px;
+            @include tablet {
+                width: 60%;
+                padding-top: 80px;
+            }
+            @include mobile {
+                padding-top: $spacing-sm;
+            }
+        }
+    }
+}
+.springs-main-container  {
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+    .content {
+        margin-top: $spacing-md;
+        color: $color-text;
+    }
+    li {
+        list-style: disc;
+        color: $color-list;
+        padding-left: 10px;
+    }
+}
