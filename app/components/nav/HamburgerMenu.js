@@ -20,9 +20,9 @@ function HamburgerMenu() {
     return (
         <>
             <div className="navbar">
-                <Link href='#' className='navbar__menu'>
+                <div className='navbar__menu'>
                     <FontAwesomeIcon icon={faBars} onClick={showSidebar} />
-                </Link>
+                </div>
             </div>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className="navbar__menu--items" onClick={showSidebar}>

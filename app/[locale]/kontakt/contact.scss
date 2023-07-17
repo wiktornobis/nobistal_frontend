@@ -1,0 +1,147 @@
+@import "../../[locale]/params";
+
+.contact {
+  display: flex;
+  margin-bottom: 200px;
+  @include desktop {
+    margin-bottom: 100px;
+  }
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  &-left-container {
+    width: 60%;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background: whitesmoke;
+    margin-bottom: 120px;
+    @include desktop {
+      padding-top: 60px;
+      margin-bottom: 140px;
+      padding-bottom: 0;
+    }
+    @include mobile {
+      order: 2;
+      width: 90%;
+      position: relative;
+      bottom: 100px;
+      margin: 0 auto;
+      padding-top: 40px;
+      padding-bottom: 30px;
+      margin-bottom: 40px;
+      .general-container {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  &-right-container {
+    width: 40%;
+    background: url('../../img/contact.jpg');
+    background-size: cover;
+    height: 700px;
+    right: 0;
+    top: 2px;
+    @include full-hd {
+      height: 550px;
+    }
+    @include mobile {
+      order: 1;
+      width: 100%;
+      height: 250px;
+    }
+  }
+}
+.main-contact {
+  display: flex;
+  justify-content: center;
+  color: $color-text-dark;
+}
+.second-contact{
+  margin-bottom: 30px;
+  color: $color-text-dark;
+  font-size: 34px !important;
+  @include full-hd {
+    font-size: 24px !important;
+  }
+  @include desktop {
+    font-size: 20px !important;
+    font-weight: 400;
+  }
+  @include mobile {
+    font-size: 14px !important;
+    font-weight: 300;
+  }
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  max-width: 900px;
+  color: $color-text-dark;
+  padding: 0 150px;
+
+  @include full-hd {
+    padding: 0 0 40px 0;
+  }
+  @include mobile {
+    gap: 20px;
+    padding: 0;
+  }
+
+  &_left {
+    width: 50%;
+    &_text {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      a{&:hover {text-decoration: underline; cursor: pointer;}}
+      @include mobile {
+        gap: 15px;
+      }
+    }
+    .email_title,
+    .name_title,
+    .address_title {
+      font-weight: 600;
+    }
+    p {
+      font-size: 12px !important;
+      font-weight: 300;
+    }
+  }
+  &_right {
+    .information_flex {
+      display: flex;
+    }
+    width: 50%;
+    .nip_title,
+    .regon_title,
+    .mobile_title,
+    .bank_title {
+      font-weight: 600;
+      margin-right: 10px;
+    }
+     p {
+      font-size: 12px !important;
+      font-weight: 300;
+    }
+
+    &_text {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      @include mobile {
+        gap: 15px;
+      }
+
+    }
+  }
+}
+.map {
+  margin: 100px;
+  @include mobile {
+    margin: 0 30px;
+  }
+}
