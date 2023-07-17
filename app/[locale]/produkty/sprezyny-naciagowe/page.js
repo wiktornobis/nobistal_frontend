@@ -1,12 +1,11 @@
 import '../../spring-global.scss';
-import arrow from '../../../img/arrow.png';
+import arrow from '@/app/img/arrow.png';
 import Link from 'next-intl/link';
 import Image from 'next/image'
-import springStretching from '../../../img/sprezyny-naciagowe.png';
-import Footer from "../../../components/footer/Footer";
-import Nav from "../../../components/nav/Nav";
+import springStretching from '@/app/img/sprezyny-naciagowe.png';
+import Footer from "@/app/components/footer/Footer";
+import Nav from "@/app/components/nav/Nav";
 import {useTranslations} from "next-intl";
-
 function SpringStretching() {
     const t = useTranslations("SubProduct");
     return (
@@ -56,5 +55,4 @@ function SpringStretching() {
         </>
     );
 }
-
 export default SpringStretching;

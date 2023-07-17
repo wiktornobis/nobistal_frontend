@@ -1,8 +1,8 @@
 import '../../spring-global.scss';
-import arrow from '../../../img/arrow.png';
-import springWave from '../../../img/sprezyny-faliste.png';
-import Footer from "../../../components/footer/Footer";
-import Nav from "../../../components/nav/Nav";
+import arrow from '@/app/img/arrow.png';
+import springWave from '@/app/img/sprezyny-faliste.png';
+import Footer from "@/app/components/footer/Footer";
+import Nav from "@/app/components/nav/Nav";
 import Link from 'next-intl/link';
 import Image from 'next/image'
 import {useTranslations} from "next-intl";

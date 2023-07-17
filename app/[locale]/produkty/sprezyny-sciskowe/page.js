@@ -1,19 +1,13 @@
 import '../../spring-global.scss';
-import arrow from '../../../img/arrow.png';
-import springCompression from '../../../img/sprezyny-sciskowe.png';
+import arrow from '@/app/img/arrow.png';
+import springCompression from '@/app/img/sprezyny-sciskowe.png';
 import Link from 'next-intl/link';
 import Image from 'next/image'
-
-import Footer from "../../../components/footer/Footer";
-import Nav from "../../../components/nav/Nav";
+import Footer from "@/app/components/footer/Footer";
+import Nav from "@/app/components/nav/Nav";
 import {useTranslations} from "next-intl";
-
-
-
 function SpringCompression() {
     const t = useTranslations("SubProduct");
-    // const location = useLocation();
-
     return (
         <>
             <Nav />
@@ -61,5 +55,4 @@ function SpringCompression() {
         </>
     );
 }
-
 export default SpringCompression;
