@@ -1,0 +1,45 @@
+@import "../../../[locale]/params";
+
+.popup_form_popup {
+  .popup_form_popup_container {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 998;
+    margin: 0 !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .popup_form_popup_apla {position: absolute; top: 0; left: 0; right:0; bottom: 0; background: rgba(75,75,75, 0.7); z-index: -1;}
+  .popup_form_popup_close {
+    position: absolute; top: 0; right: 0; font-size: 30px; font-family: arial, sans; cursor: pointer; padding: 10px; z-index: 1; color: #bbbbbb;
+  }
+  .popup_form_popup_pane {
+    position: relative;
+    background: white;
+    border-radius: 4px;
+    text-align: center;
+    max-width: 520px;
+    padding: 153px $spacing-lg $spacing-md;
+    z-index: 0;
+
+  }
+  .popup_logo {height: 95px; width: auto; position: absolute; transform: translateX(-50%); left: 50%; top: 20px;}
+  h1 { font-size: 28px; margin: 0}
+  h2 {font-size: 28px; margin: 36px 0;}
+  h3 {margin-top: $spacing-lg; font-size: 16px}
+  .btn {text-transform: uppercase; margin: $spacing-md 0 0; background-color: $color-primary; border-color: $color-primary; padding: 10px 12px; border-radius: 4px;font-weight: 700;font-size: 14px;color: white; cursor: pointer;}
+
+  @include mobile {
+    .popup_form_popup_pane {padding: 130px 23px 46px; max-width: 95%;}
+    .popup_logo {width: 150px;}
+    h1 {font-size: 24px;}
+    h2 {font-size: 16px; margin: 36px 20px;}
+    h2 b {font-size: 16px;}
+    .btn {font-size: 12px;}
+  }
+}
+

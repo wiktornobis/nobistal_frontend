@@ -1,0 +1,51 @@
+@import '../params';
+
+.data-table {
+  width: 70%;
+  margin: 100px auto;
+  &-btn-logout {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    @include mobile {
+      right: 20px;
+    }
+
+    &:hover {
+      background: black;
+      color: white;
+    }
+  }
+
+  th {
+    font-size: 22px;
+    @include full-hd {
+      font-size: 18px;
+    }
+  }
+  td {
+    font-size: 18px;
+    max-width: 550px;
+    @include full-hd {
+      font-size: 16px;
+    }
+  }
+}
+
+@include tablet {
+  .data-table {
+    width: 90%;
+    th {
+      font-size: 16px;
+    }
+    td {
+      font-size: 12px;
+
+    }
+  }
+}

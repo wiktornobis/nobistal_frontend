@@ -25,7 +25,7 @@ function Consulting() {
             <div className="information_first_container">
                 <FontAwesomeIcon className="information_first_container_icon" icon={faMessage} />
                 <h3 className="information_first_container_title">{t('title')}</h3>
-                <Link href='/formularz'>
+                <Link href='/formularz' rel="preload">
                     <h4 className="information_first_container_text">
                         {t('text')}
                     </h4>

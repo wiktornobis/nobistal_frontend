@@ -19,7 +19,7 @@ import {useTranslations} from "next-intl";
 import { useEffect } from 'react';
 
 function ProductsCarousel() {
-     const t = useTranslations("CarouselProducts");
+    const t = useTranslations("CarouselProducts");
     useEffect(() => {
         Aos.init({ duration: 3000 })
     }, [])
