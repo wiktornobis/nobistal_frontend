@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { TrackGoogleAnalyticsEvent } from '@/GA4';
+import { TrackGoogleAnalyticsEvent } from '@/app/../Ga4';
 import { useSpring, animated } from '@react-spring/web';
 import logo from '@/app/img/nobistal.png';
 import './popupForm.scss';
