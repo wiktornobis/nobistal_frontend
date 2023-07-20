@@ -1886,6 +1886,11 @@ next-intl@2.15.0-beta.3:
     server-only "0.0.1"
     use-intl "^2.14.2"
 
+next-ssr@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/next-ssr/-/next-ssr-0.0.7.tgz"
+  integrity sha512-pHwBsRlr/6s5aSGcDHjAl5kMCcpSfU4O/vvhFhpr6smBCEZgrMUbpTurAgy0Mc7BiYFk9I/wN9MTD0qGM560lg==
+
 "next@^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0", next@13.4.3:
   version "13.4.3"
   resolved "https://registry.npmjs.org/next/-/next-13.4.3.tgz"

@@ -1,22 +1,30 @@
-"use client"
-
 import './products.scss';
-import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 import DataProducts from './DataProducts';
-// import Footer from "../../components/footer/Footer";
+import Footer from "../../components/footer/Footer";
 import Nav from "../../components/nav/Nav";
 import {useTranslations} from "next-intl";
+import {MetaTags} from "@/app/components/Metatags";
 
+const canonicalUrl = 'https://www.nobistal.pl/produkty'
 function Page({products}) {
     const t = useTranslations("SubpageProductsInformation");
-    useEffect(() => {
-        Aos.init({ duration: 3000 })
-    }, [])
+    const h = useTranslations("HeadSeo");
+    const d = useTranslations("HeadDescription");
+    const k = useTranslations("HeadKeyWords");
+
     return (
         <>
+            <MetaTags
+              title={h('products')}
+              description={d('products')}
+              keywords={k('products')}
+              robots="index, follow"
+              canonicalLink={canonicalUrl}
+              href="www.nobistal.pl/produkty"
+              hrefLang="pl-PL"
+            />
             <Nav />
             <div className="products_main">
                 <div className="products_main_container general-container">
@@ -25,15 +33,15 @@ function Page({products}) {
                 </div>
             </div>
             <div className="products_main_products general-container">
-                <h3 id='produkty' className="products_main_products_title" data-aos="fade-up">{t('product')}</h3>
-                <div className="items" data-aos="fade-up">
+                <h3 id='produkty' className="products_main_products_title" >{t('product')}</h3>
+                <div className="items" >
                    <DataProducts />
                 </div>
                 <div className="information">
-                    <h2 className="information_title" data-aos="fade-up">{t('title')} </h2>
-                    <h3 className="information_text" data-aos="fade-up">{t('text1')}</h3>
-                    <h3 className="information_text" data-aos="fade-up">{t('text2')}</h3>
-                    <ul className="information_list" data-aos="fade-up">
+                    <h2 className="information_title" >{t('title')} </h2>
+                    <h3 className="information_text" >{t('text1')}</h3>
+                    <h3 className="information_text" >{t('text2')}</h3>
+                    <ul className="information_list" >
                         <li>{t('list1')}</li>
                         <li>{t('list2')}</li>
                         <li>{t('list3')}</li>
@@ -42,7 +50,7 @@ function Page({products}) {
                     </ul>
                 </div>
             </div>
-            {/*<Footer />*/}
+            <Footer />
         </>
     );
 }
