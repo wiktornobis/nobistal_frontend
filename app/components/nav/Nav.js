@@ -14,18 +14,18 @@ function Nav() {
   const t = useTranslations('Head');
   const [activeLink, setActiveLink] = useState('');
 
-  useEffect(() => {
-    const handleRouteChange = () => {
-      setActiveLink(window.location.pathname);
-    };
-
-    window.addEventListener('popstate', handleRouteChange);
-    setActiveLink(window.location.pathname);
-
-    return () => {
-      window.removeEventListener('popstate', handleRouteChange);
-    };
-  }, []);
+  // useEffect(() => {
+  //   const handleRouteChange = () => {
+  //     setActiveLink(window.location.pathname);
+  //   };
+  //
+  //   window.addEventListener('popstate', handleRouteChange);
+  //   setActiveLink(window.location.pathname);
+  //
+  //   return () => {
+  //     window.removeEventListener('popstate', handleRouteChange);
+  //   };
+  // }, []);
 
   return (
     <nav className="nav">

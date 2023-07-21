@@ -1,6 +1,8 @@
+// "use client"
 import { useTranslations } from "next-intl";
 import Link from "next-intl/link";
 import AlertMessage from "./AlertMessage";
+import { getServerSideProps } from './AlertMessage'
 
 import Sectors from "@/app/components/sectors/Sectors";
 import ProductsCarousel from "@/app/components/products/ProductsCarousel";
@@ -12,22 +14,33 @@ import Nav from "@/app/components/nav/Nav";
 import AboutUs from "@/app/components/aboutUs/AboutUs";
 import PopupForm from "@/app/components/popups/popup_form/PopupForm";
 import Cookie from "@/app/components/popups/cookie/Cookie";
-
-
-
+import NavJS from "@/app/components/nav/Nav";
+import {cookies} from "next/headers";
+import {MetaTags} from "@/app/components/Metatags";
 export default function Home() {
-  const t = useTranslations("HeadSeo");
+  const h = useTranslations("HeadSeo");
+  const d = useTranslations("HeadDescription");
+  const k = useTranslations("HeadKeyWords");
+  const cookieStore = cookies()
+  let langUrl
+  const canonicalUrl = 'https://www.nobistal.pl'
+  let cookieLang = cookieStore.get('NEXT_LOCALE')
+  let hrefLang = cookieLang?.value
+  hrefLang !== undefined ? langUrl = cookieLang.value === 'pl' ? '' : `/${cookieLang.value}` : langUrl = ''
 
   return (
       <>
-      <title>{t('mainPage')}</title>
-      <meta name="description" content={t('mainPage')} />
-      <meta name="keywords" content="sodemann, sodemann Sprężyny, sodemann Sprężyna, Sodemann pl"/>
-      <meta name="robots" content="INDEX,FOLLOW"/>
-      <meta name="description" data-react-helmet="true" content={t("title")} />
-        <Cookie />
-        <PopupForm />
-        <Nav />
+       <MetaTags
+              title={h('products')}
+              description={d('products')}
+              keywords={k('products')}
+              robots="index, follow"
+              canonicalLink={canonicalUrl}
+              hrefLang={hrefLang}
+              href={`https://nobistal.pl${langUrl}`}
+       />
+
+        <NavJS />
         <AboutUs />
         <Sectors />
         <ProductsCarousel />

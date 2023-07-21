@@ -165,40 +165,41 @@
         "waveList4": "Versatility"
     },
     "HeadSeo": {
-      "mainPage": "P.P.U.H Nobi-Stal - Spring manufacturer",
-      "products": "Products - Nobistal",
-      "form": "Formularz - Nobistal",
-      "contact": "Kontakt - Nobistal",
-      "springCompression": "Sprężyny Ściskowe - Nobistal",
-      "springStretching": "Sprężyny Naciągowe - Nobistal",
-      "springTorsion": "Sprężyny Naciągowe - Nobistal",
-      "springDiscs": "Sprężyny Talerzowe - Nobistal",
-      "springWave": "Sprężyny Faliste - Nobistal",
-      "wireBentForm": "Formy gięte z drutu - Nobistal"
+        "mainPage": "P.P.U.H Nobi-Stal - Spring Manufacturer",
+        "mainPageDescription": "P.P.U.H Nobi-Stal - Spring Manufacturer",
+        "mainPageKeywords": "P.P.U.H Nobi-Stal - Manufacturer of Springs",
+        "products": "Products - Nobistal",
+        "form": "Form - Nobistal",
+        "contact": "Contact - Nobistal",
+        "springCompression": "springCompression - Nobistal",
+        "springStretching": "SpringStretching - Nobistal",
+        "springTorsion": "Tension Springs - Nobistal",
+        "springDiscs": "Disc Springs - Nobistal",
+        "springWave": "Wave Springs - Nobistal",
+        "wireBentForm": "Wire Bent Forms - Nobistal"
     },
     "HeadDescription": {
-        "springCompression": "Sprężyny ściskowe o wysokiej jakości. Szeroki wybór i konkurencyjne ceny.",
-        "springStretching": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
-        "springTorsion": "Sprężyny naciągowe to elastyczne elementy mechaniczne używane do przechowywania energii potencjalnej.",
-        "springDiscs": "Sprężyny talerzowe to innowacyjne elastyczne elementy metalowe, które zapewniają doskonałą kontrolę wstrząsów i drgań w różnych aplikacjach. Wykorzystywane w przemyśle motoryzacyjnym, meblarskim i innych branżach, nasze sprężyny talerzowe cechuje najwyższa jakość, niezawodność i doskonała wydajność.",
-        "springWave": "Sprężyny faliste są elastycznymi elementami metalowymi, które znajdują szerokie zastosowanie w różnych dziedzinach. Charakteryzują się unikalnym wzorem falistym, który zapewnia doskonałą elastyczność i możliwość absorpcji wstrząsów oraz drgań. Nasze sprężyny faliste są wykonane z wysokiej jakości materiałów i cechują się niezawodnością oraz wytrzymałością.",
-        "wireBentForm": "Formy gięte z drutu są wszechstronnymi i elastycznymi rozwiązaniami w różnych branżach. Wykonane z wysokiej jakości drutu metalowego, te formy zapewniają precyzyjne kształtowanie i gięcie zgodnie z indywidualnymi wymaganiami. Doskonale nadają się do zastosowań w przemyśle motoryzacyjnym, meblarskim, elektronice i wielu innych dziedzinach, gdzie precyzja, wytrzymałość i estetyka są kluczowe.",
-        "products": "Oferujemy różnorodne elastyczne rozwiązania sprężynowe, które obejmują sprężyny talerzowe, sprężyny ściskowe, sprężyny naciągowe, sprężyny skrętne i sprężyny faliste. Nasze sprężyny talerzowe są doskonałe do absorpcji wstrząsów i drgań, zapewniając równowagę i stabilność w branżach motoryzacyjnej, przemysłowej i meblarskiej. Natomiast sprężyny faliste, sprężyny ściskowe i sprężyny naciągowe, oferując elastyczność i precyzyjne gięcie. Oferujemy spersonalizowane rozwiązania sprężynowe, które są wykonane z wysokiej jakości materiałów, gwarantując niezawodność, wytrzymałość i doskonałą jakość.",
-        "home": "Producent i dostawca sprężyn i sit. Nobistal jest ekspertem w dziedzinie produkcji sprężyn i sit. Nasze sprężyny stosowane są m.in.: traktorach, kombajnach, pługach.",
-        "form": "Nasz formularz na stronie to wygodne narzędzie, które umożliwia łatwe i szybkie przekazywanie informacji. Dzięki temu formularzowi możesz skontaktować się z nami, zadać pytanie, złożyć zamówienie lub zgłosić swoje zainteresowanie naszymi produktami lub usługami.",
-        "contact": "Nasz kontakt to kluczowy sposób na nawiązanie bezpośredniego połączenia z nami. Dzięki naszym danym kontaktowym, możesz szybko i łatwo skontaktować się z naszym zespołem i uzyskać potrzebną pomoc, informacje lub wsparcie. Bez względu na to, czy masz pytania dotyczące naszych produktów, zamówień, usług czy innych zapytań, nasz kontakt pozwoli Ci skutecznie skomunikować się z nami."
-
+         "springCompression": "High quality compression springs. Wide selection and competitive prices.",
+         "springStretching": "Extension springs are elastic mechanical elements used to store potential energy.",
+         "springTorsion": "Extension springs are flexible mechanical elements used to store potential energy.",
+         "springDiscs": "Disc springs are innovative flexible metal components that provide excellent shock and vibration control in various applications. Used in the automotive, furniture and other industries, our disc springs are of the highest quality, reliability and excellent performance.",
+         "springWave": "Wave springs are flexible metal elements that are widely used in various fields. They are characterized by a unique wave pattern that provides excellent flexibility and the ability to absorb shocks and vibrations. Our wave springs are made of high quality materials and are characterized by reliability and durability.",
+         "wireBentForm": "Wire bent forms are versatile and flexible solutions for a variety of industries. Made of high-quality metal wire, these forms provide precise shaping and bending to individual requirements. They are perfect for applications in the automotive, furniture, electronics and many other areas where precision, strength and aesthetics are key.",
+         "products": "We offer a variety of flexible spring solutions that include disc springs, compression springs, extension springs, torsion springs and wave springs. Our disc springs are excellent for shock and vibration absorption, providing balance and stability to the automotive, industrial and furniture industries. Wave springs, compression springs and extension springs, offering flexibility and precise bending. We offer customized spring solutions that are made of high quality materials, guaranteeing reliability, durability and excellent quality.",
+         "home": "Producer and supplier of springs and screens. Nobistal is an expert in the production of springs and screens. Our springs are used, among others, in: tractors, combine harvesters, plows.",
+         "form": "Our website form is a convenient tool that allows you to provide information quickly and easily. Thanks to this form, you can contact us, ask a question, place an order or express your interest in our products or services.",
+         "contact": "Our contact is a key way to establish a direct connection with us. Thanks to our contact details, you can quickly and easily contact our team and get the help, information or support you need. Whether you have questions about our products, orders, services or other inquiries, our contact will allow you to communicate effectively with us."
     },
     "HeadKeyWords": {
-          "springCompression": "sprężyny ściskowe, sprężyna ściskowa, sprężyna, sprezyny sciskowe, sprezyny, sprezyna, sprężyny ściskowe do maszyn, sprężyny do urządzeń",
-          "springStretching": "sprężyny naciągowe, sprężyna naciągowa, sprężyna, sprezyny, sprezyna,sprezyny naciagowe, sprężyny elastyczne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn naciągowych",
-          "springTorsion": "sprężyny skrętne, sprężyna skrętna, sprężyna, sprezyny skretne, sprezyny, sprezyna, sprężyny torsyjne, sprężyny mechaniczne, przechowywanie energii, zastosowanie sprężyn skrętnych",
-          "springDiscs": "sprężyny talerzowe, sprężyna talerzowa, sprężyna, sprezyny, sprezyna, sprezyny talerzowe, elastyczne elementy metalowe, dopasowane sprężyny talerzowe, zastosowanie sprężyn talerzowych",
-          "springWave": "sprężyny faliste, sprężyna falista, sprężyna, sprezyny, sprezyna, sprezyny faliste, elastyczne elementy metalowe, wzór falisty, niezawodność sprężyn falistych, absorpcja wstrząsów i drgań, zastosowanie sprężyn falistych",
-          "wireBentForm": "formy gięte, gięta forma z drutu, gieta forma, wyroby z drutu, wyroby stalowe, elastyczne elementy metalowe, wykorzystanie wyrobów metalowych",
-          "products": "sprężyny, sprężyny ściskowe, sprężyny talerzowe, sprężyny skrętne, sprężyny faliste, spreżyny naciągowe, sprezyny, sprezyna, wyroby metalowe, wytrzymałe sprężyny, wysoka jakosc sprezyny",
-          "home":"sprężyny, sprężyna, dostawca sprężyn, wyroby metalowe, branża górnicza, branża rolnicza, branża budowlana, wysokiej jakości sprężyny, zastosowanie sprężyn",
-          "form":"sprężyny zapytanie, dostawca sprężyn, sprężyny od ręki, szybka dostawa sprężyn, najwyższa jakość sprężyn, sprezyny dostepnosc, dostępność wyrobów metalowych",
-          "contact":"sprężyny kontakt, dostawa sprężyn kontakt, sprezyny zapytanie, wyroby metalowe, spreżyny, sprężyna, dostawca sprężyn"
-    }
+         "springCompression": "compression springs, compression spring, spring, compression springs, springs, spring, compression springs for machines, springs for devices",
+         "springStretching": "extension springs, extension spring, spring, springs, spring, extension springs, elastic springs, mechanical springs, energy storage, application of extension springs",
+         "springTorsion": "torsion springs, torsion spring, spring, torsion springs, springs, spring, torsion springs, mechanical springs, energy storage, application of torsion springs",
+         "springDiscs": "disc springs, disc spring, spring, springs, spring, disc springs, flexible metal parts, matching disc springs, application of disc springs",
+         "springWave": "wave springs, wave spring, spring, springs, spring, wave springs, flexible metal elements, wave pattern, reliability of wave springs, shock and vibration absorption, use of wave springs",
+         "wireBentForm": "bent forms, bent wire form, bent form, wire products, steel products, flexible metal elements, use of metal products",
+         "products": "springs, compression springs, disc springs, torsion springs, wave springs, extension springs, springs, spring, metal products, durable springs, high quality springs",
+         "home":"springs, spring, spring supplier, metal products, mining industry, agricultural industry, construction industry, high quality springs, spring application",
+         "form": "inquiry springs, spring supplier, springs in stock, quick delivery of springs, highest quality springs, springs availability, availability of metal products",
+         "contact":"contact springs, spring supply contact, springs request, metal products, springs, spring, spring supplier"
+   }
 }

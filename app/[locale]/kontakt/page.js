@@ -3,11 +3,32 @@ import './contact.scss';
 import Footer from "@/app/components/footer/Footer";
 import Nav from "@/app/components/nav/Nav";
 import {useTranslations} from "next-intl";
+import {MetaTags} from "@/app/components/Metatags";
+import { cookies } from 'next/headers'
 
 function Page() {
     const t = useTranslations("Contact");
+    const h = useTranslations("HeadSeo");
+    const d = useTranslations("HeadDescription");
+    const k = useTranslations("HeadKeyWords");
+    const cookieStore = cookies()
+    let langUrl
+    const canonicalUrl = 'https://www.nobistal.pl/kontakt'
+    let cookieLang = cookieStore.get('NEXT_LOCALE')
+    let hrefLang = cookieLang?.value
+    hrefLang !== undefined ? langUrl = cookieLang.value === 'pl' ? '' : `/${cookieLang.value}` : langUrl = ''
+
     return (
         <>
+            <MetaTags
+                  title={h('contact')}
+                  description={d('contact')}
+                  keywords={k('contact')}
+                  robots="index, follow"
+                  canonicalLink={canonicalUrl}
+                  hrefLang={hrefLang}
+                  href={`https://nobistal.pl${langUrl}`}
+            />
             <Nav />
             <div className='contact'>
                 <div className="contact-left-container">

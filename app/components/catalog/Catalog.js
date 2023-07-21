@@ -13,17 +13,17 @@ import {useTranslations} from "next-intl";
 
 function Catalog() {
     const t = useTranslations("Catalog");
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+    // const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
     useEffect(() => {
         Aos.init({ duration: 3000 })
     }, [])
-    useEffect(() => {
-        function handleResize() {
-            setIsMobile(window.innerWidth <= 768);
-        }
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
+    // useEffect(() => {
+    //     function handleResize() {
+    //         setIsMobile(window.innerWidth <= 768);
+    //     }
+    //     window.addEventListener('resize', handleResize);
+    //     return () => window.removeEventListener('resize', handleResize);
+    // }, []);
     const downloadSpring = () => {
         const prefix = isMobile ? '_mobile' : '_desktop';
         TrackGoogleAnalyticsEvent('DownloadSpringCatalog', 'DownloadCatalog' + prefix, 'BannerSpringDownload');

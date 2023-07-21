@@ -1,14 +1,22 @@
+// "use client"
 import './products.scss';
 import 'aos/dist/aos.css';
-
+// import { useEffect, useState } from 'react';
 import DataProducts from './DataProducts';
 import Footer from "../../components/footer/Footer";
 import Nav from "../../components/nav/Nav";
 import {useTranslations} from "next-intl";
 import {MetaTags} from "@/app/components/Metatags";
+import { cookies } from 'next/headers'
 
-const canonicalUrl = 'https://www.nobistal.pl/produkty'
-function Page({products}) {
+function Page() {
+    const cookieStore = cookies()
+    const canonicalUrl = 'https://www.nobistal.pl/produkty'
+    let langUrl
+    let cookieLang = cookieStore.get('NEXT_LOCALE')
+    let hrefLang = cookieLang?.value
+    hrefLang !== undefined ? langUrl = cookieLang.value === 'pl' ? '' : `/${cookieLang.value}` : langUrl = ''
+
     const t = useTranslations("SubpageProductsInformation");
     const h = useTranslations("HeadSeo");
     const d = useTranslations("HeadDescription");
@@ -22,8 +30,8 @@ function Page({products}) {
               keywords={k('products')}
               robots="index, follow"
               canonicalLink={canonicalUrl}
-              href="www.nobistal.pl/produkty"
-              hrefLang="pl-PL"
+              hrefLang={hrefLang}
+              href={`https://nobistal.pl${langUrl}/produkty`}
             />
             <Nav />
             <div className="products_main">
@@ -32,6 +40,7 @@ function Page({products}) {
                     <h3 className="products_main_container_text">{t('mainText')}</h3>
                 </div>
             </div>
+
             <div className="products_main_products general-container">
                 <h3 id='produkty' className="products_main_products_title" >{t('product')}</h3>
                 <div className="items" >
