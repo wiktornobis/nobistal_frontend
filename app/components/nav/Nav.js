@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next-intl/link';
+import { usePathname } from 'next/navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle, faUserShield } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
@@ -11,22 +12,13 @@ import HamburgerMenu from './HamburgerMenu';
 import './nav.scss';
 
 function Nav() {
-  const t = useTranslations('Head');
-  const [activeLink, setActiveLink] = useState('');
+    const t = useTranslations('Head');
+    const pathname = usePathname()
+    const [activeLink, setActiveLink] = useState('');
 
-  // useEffect(() => {
-  //   const handleRouteChange = () => {
-  //     setActiveLink(window.location.pathname);
-  //   };
-  //
-  //   window.addEventListener('popstate', handleRouteChange);
-  //   setActiveLink(window.location.pathname);
-  //
-  //   return () => {
-  //     window.removeEventListener('popstate', handleRouteChange);
-  //   };
-  // }, []);
-
+    useEffect(() => {
+      setActiveLink(pathname.replace(/^\/[a-z]{2}(\/|$)/, '/'));
+    }, [pathname]);
   return (
     <nav className="nav">
       <div className="nav_menu">
