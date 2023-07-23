@@ -6,10 +6,30 @@ import Nav from "@/app/components/nav/Nav";
 import Link from 'next-intl/link';
 import Image from 'next/image'
 import {useTranslations} from "next-intl";
+import {cookies} from "next/headers";
+import {MetaTags} from "@/app/components/Metatags";
 function SpringDiscs() {
     const t = useTranslations("SubProduct");
+    const h = useTranslations("HeadSeo");
+    const d = useTranslations("HeadDescription");
+    const k = useTranslations("HeadKeyWords");
+    const cookieStore = cookies();
+    let langUrl
+    const canonicalUrl = 'https://www.nobistal.pl/produkty/sprezyny-talerzowe'
+    let cookieLang = cookieStore.get('NEXT_LOCALE')
+    let hrefLang = cookieLang?.value
+    hrefLang !== undefined ? langUrl = cookieLang.value === 'pl' ? '' : `/${cookieLang.value}` : langUrl = ''
     return (
         <>
+            <MetaTags
+                title={h('springDiscs')}
+                description={d('springDiscs')}
+                keywords={k('springDiscs')}
+                robots="index, follow"
+                canonicalLink={canonicalUrl}
+                hrefLang={hrefLang}
+                href={`https://nobistal.pl${langUrl}/produkty/sprezyny-talerzowe`}
+            />
             <Nav />
             <div className="springs-background">
                 <div className="sub-product general-container">

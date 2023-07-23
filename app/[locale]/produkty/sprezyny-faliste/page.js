@@ -6,11 +6,31 @@ import Nav from "@/app/components/nav/Nav";
 import Link from 'next-intl/link';
 import Image from 'next/image'
 import {useTranslations} from "next-intl";
+import {cookies} from "next/headers";
+import {MetaTags} from "@/app/components/Metatags";
 
 function SpringWave() {
     const t = useTranslations("SubProduct");
+    const h = useTranslations("HeadSeo");
+    const d = useTranslations("HeadDescription");
+    const k = useTranslations("HeadKeyWords");
+    const cookieStore = cookies();
+    let langUrl
+    const canonicalUrl = 'https://www.nobistal.pl/produkty/sprezyny-faliste'
+    let cookieLang = cookieStore.get('NEXT_LOCALE')
+    let hrefLang = cookieLang?.value
+    hrefLang !== undefined ? langUrl = cookieLang.value === 'pl' ? '' : `/${cookieLang.value}` : langUrl = ''
     return (
         <>
+            <MetaTags
+                title={h('springWave')}
+                description={d('springWave')}
+                keywords={k('springWave')}
+                robots="index, follow"
+                canonicalLink={canonicalUrl}
+                hrefLang={hrefLang}
+                href={`https://nobistal.pl${langUrl}/produkty/sprezyny-faliste`}
+            />
             <Nav />
             <div className="springs-background">
                 <div className="sub-product general-container">

@@ -6,11 +6,31 @@ import Nav from "@/app/components/nav/Nav";
 import Link from 'next-intl/link';
 import Image from 'next/image'
 import {useTranslations} from "next-intl";
+import {MetaTags} from "@/app/components/Metatags";
+import {cookies} from "next/headers";
 
 function WireBentMolds() {
     const t = useTranslations("SubProduct");
+    const h = useTranslations("HeadSeo");
+    const d = useTranslations("HeadDescription");
+    const k = useTranslations("HeadKeyWords");
+    const cookieStore = cookies();
+    let langUrl
+    const canonicalUrl = 'https://www.nobistal.pl/produkty/formy-giete-z-drutu'
+    let cookieLang = cookieStore.get('NEXT_LOCALE')
+    let hrefLang = cookieLang?.value
+    hrefLang !== undefined ? langUrl = cookieLang.value === 'pl' ? '' : `/${cookieLang.value}` : langUrl = ''
     return (
         <>
+            <MetaTags
+                  title={h('wireBentForm')}
+                  description={d('wireBentForm')}
+                  keywords={k('wireBentForm')}
+                  robots="index, follow"
+                  canonicalLink={canonicalUrl}
+                  hrefLang={hrefLang}
+                  href={`https://nobistal.pl${langUrl}/produkty/formy-giete-z-drutu`}
+            />
             <Nav />
             <div className="springs-background">
                 <div className="sub-product general-container">

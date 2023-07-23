@@ -6,10 +6,30 @@ import Image from 'next/image'
 import Footer from "@/app/components/footer/Footer";
 import Nav from "@/app/components/nav/Nav";
 import {useTranslations} from "next-intl";
+import {cookies} from "next/headers";
+import {MetaTags} from "@/app/components/Metatags";
 function SpringCompression() {
     const t = useTranslations("SubProduct");
+    const h = useTranslations("HeadSeo");
+    const d = useTranslations("HeadDescription");
+    const k = useTranslations("HeadKeyWords");
+    const cookieStore = cookies();
+    let langUrl
+    const canonicalUrl = 'https://www.nobistal.pl/produkty/sprezyny-sciskowe'
+    let cookieLang = cookieStore.get('NEXT_LOCALE')
+    let hrefLang = cookieLang?.value
+    hrefLang !== undefined ? langUrl = cookieLang.value === 'pl' ? '' : `/${cookieLang.value}` : langUrl = ''
     return (
         <>
+             <MetaTags
+                title={h('springCompression')}
+                description={d('springCompression')}
+                keywords={k('springCompression')}
+                robots="index, follow"
+                canonicalLink={canonicalUrl}
+                hrefLang={hrefLang}
+                href={`https://nobistal.pl${langUrl}/produkty/sprezyny-sciskowe`}
+            />
             <Nav />
             <div className="springs-background">
                 <div className="sub-product general-container">

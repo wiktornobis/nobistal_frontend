@@ -27,7 +27,7 @@ function Page() {
                   robots="index, follow"
                   canonicalLink={canonicalUrl}
                   hrefLang={hrefLang}
-                  href={`https://nobistal.pl${langUrl}`}
+                  href={`https://nobistal.pl${langUrl}/kontakt`}
             />
             <Nav />
             <div className='contact'>
