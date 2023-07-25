@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 
 // const url = 'https://test.nobistal.pl';
 //

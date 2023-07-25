@@ -16,6 +16,7 @@ import { useRouter } from 'next/navigation';
 function Users() {
     const [list, setList] = useState([])
     const router = useRouter();
+
     useEffect(() => {
         Axios.get(`${url}/api/get`).then((response) => {
             setList(response.data)
