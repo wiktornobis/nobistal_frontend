@@ -16,7 +16,7 @@ import { useRouter } from 'next/navigation';
 function Users() {
     const [list, setList] = useState([])
     const router = useRouter();
-
+    !localStorage.getItem("token") ? router.push('/login') : '';
     useEffect(() => {
         Axios.get(`${url}/api/get`).then((response) => {
             setList(response.data)
