@@ -5,7 +5,7 @@ import {NextIntlClientProvider} from 'next-intl';
 export const metadata = {
   verification: {
     google: "google-site-verification=123123123",
-  },
+  }
 };
 
 export default async function LocaleLayout({children, params: {locale}}) {
@@ -19,6 +19,7 @@ export default async function LocaleLayout({children, params: {locale}}) {
   return (
     <html lang={locale}>
       <body>
+      <link rel="icon" href="/nobistal-favicon.png" />
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>

@@ -1,7 +1,4 @@
-// "use client"
 import './products.scss';
-import 'aos/dist/aos.css';
-// import { useEffect, useState } from 'react';
 import DataProducts from './DataProducts';
 import Footer from "../../components/footer/Footer";
 import Nav from "../../components/nav/Nav";
@@ -43,7 +40,7 @@ function Page() {
 
             <div className="products_main_products general-container">
                 <h3 id='produkty' className="products_main_products_title" >{t('product')}</h3>
-                <div className="items" >
+                <div className="items">
                    <DataProducts />
                 </div>
                 <div className="information">
