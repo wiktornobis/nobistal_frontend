@@ -13,17 +13,10 @@ function PopupForm() {
   const t = useTranslations("PopupForm");
   const router = useRouter();
   const [isClose, setIsClose] = useState(null);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  // const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [show, setShow] = useState(false);
   const [shouldAnimate, setShouldAnimate] = useState(false);
 
-  useEffect(() => {
-    function handleResize() {
-      setIsMobile(window.innerWidth <= 768);
-    }
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
   useEffect(() => {
     const cookieExists = document.cookie.indexOf("popup_form=true") !== -1;
@@ -40,16 +33,16 @@ function PopupForm() {
   const closePopup = () => {
     setIsClose(true);
     setPopupFormCookie();
-    const prefix = isMobile ? '_mobile' : '_desktop';
-    TrackGoogleAnalyticsEvent('PopupForm', 'PopupFormClose' + prefix, 'PopupFormClose');
+    // const prefix = isMobile ? '_mobile' : '_desktop';
+    TrackGoogleAnalyticsEvent('PopupForm', 'PopupFormClose', 'PopupFormClose');
   };
 
   const openForm = () => {
     setIsClose(true);
     router.push('/formularz');
     setPopupFormCookie();
-    const prefix = isMobile ? '_mobile' : '_desktop';
-    TrackGoogleAnalyticsEvent('PopupForm' + prefix, 'PopupFormOpen' + prefix, 'PopupFormOpen');
+    // const prefix = isMobile ? '_mobile' : '_desktop';
+    TrackGoogleAnalyticsEvent('PopupForm', 'PopupFormOpen', 'PopupFormOpen');
   };
 
   const [popupAnimation, setPopupAnimation] = useSpring(() => ({
