@@ -21,6 +21,7 @@ function DataProducts() {
                         className='items_container_img'
                         src={img1}
                         alt={t('productOneTitle')}
+                        priority={true}
                     />
                     <h3 className='items_container_text'>{t('productOneTitle')}</h3>
                     <p className='items_container_title'>{t('productSubtitle')}</p>
@@ -32,6 +33,7 @@ function DataProducts() {
                         className='items_container_img'
                         src={img2}
                         alt={t('productTwoTitle')}
+                        priority={true}
                     />
                     <h3 className='items_container_text'>{t('productTwoTitle')}</h3>
                     <p className='items_container_title'>{t('productSubtitle')}</p>
@@ -43,6 +45,7 @@ function DataProducts() {
                         className='items_container_img'
                         src={img3}
                         alt={t('productThreeTitle')}
+                        priority={true}
                     />
                     <h3 className='items_container_text'>{t('productThreeTitle')}</h3>
                     <p className='items_container_title'>{t('productSubtitle')}</p>
