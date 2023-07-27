@@ -16,13 +16,24 @@ import { useRouter } from 'next/navigation';
 function Users() {
     const [list, setList] = useState([])
     const router = useRouter();
-    !localStorage.getItem("token") ? router.push('/login') : '';
-    useEffect(() => {
-        Axios.get(`${url}/api/get`).then((response) => {
-            setList(response.data)
-        })
-    },[])
+    const token = localStorage.getItem("token");
+    !token ? router.push('/login') : '';
+      useEffect(() => {
 
+          if (token) {
+            Axios.get(`${url}/api/get`, {
+                headers: {
+                'x-access-token': token,
+              },
+            })
+            .then((response) => {
+              setList(response.data);
+            })
+            .catch((error) => {
+              console.error('Wystąpił błąd podczas pobierania danych:', error.message);
+            });
+          }
+        }, []);
     const logOut = () => {
         localStorage.removeItem("token");
         router.push('/');
