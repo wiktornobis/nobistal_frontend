@@ -1,4 +1,3 @@
-// "use client"
 import { useTranslations } from "next-intl";
 import Sectors from "@/app/components/sectors/Sectors";
 import ProductsCarousel from "@/app/components/products/ProductsCarousel";
