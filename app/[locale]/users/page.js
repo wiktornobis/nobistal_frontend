@@ -10,8 +10,10 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import { url } from '@/app/components/constants/Constants';
+import { useRouter } from 'next/navigation';
 
 function Users() {
+  const router = useRouter();
   const [list, setList] = useState([]);
   const [updateUser, setUpdateUser] = useState(false);
   const [updateUserFail, setUpdateUserFail] = useState(false);
@@ -28,9 +30,8 @@ function Users() {
     message: '',
   });
 
-  // const router = useRouter();
   const token = localStorage.getItem('token');
-  // !token ? router.push('/login') : '';
+  !token ? router.push('/login') : '';
   useEffect(() => {
     let timeout;
     if (updateUser) {
@@ -58,7 +59,7 @@ function Users() {
 
   const logOut = () => {
     localStorage.removeItem('token');
-    // router.push('/');
+    router.push('/');
   };
   const handleDeleteUser = (userId) => {
     const confirmed = window.confirm('Czy na pewno chcesz usunąć użytkownika z bazy danych?');

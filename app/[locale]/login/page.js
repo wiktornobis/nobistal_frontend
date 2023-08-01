@@ -1,12 +1,9 @@
 "use client";
-import Link from "next-intl/link";
 import './login.scss';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Axios from 'axios';
 import { url } from '@/app/components/constants/Constants';
-
-
 function Login() {
     const router = useRouter();
     const [username, setUsername] = useState("");
@@ -14,7 +11,6 @@ function Login() {
     const [error, setError] = useState(null);
 
     Axios.defaults.withCredentials = true;
-
     const login = () => {
         Axios.post(`${url}/api/login`, {
          username: username,
@@ -37,7 +33,6 @@ function Login() {
             throw error
         });
     };
-
 
     return (
         <>
