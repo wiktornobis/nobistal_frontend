@@ -15,6 +15,7 @@ function Users() {
   const [list, setList] = useState([]);
   const [updateUser, setUpdateUser] = useState(false);
   const [updateUserFail, setUpdateUserFail] = useState(false);
+  const [searchTerm, setSearchTerm] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -221,6 +222,16 @@ function Users() {
       )}
       {updateUser && <p className="update_data">Dane użytkownika zostały zaktualizowane pomyślnie.</p>}
       {updateUserFail && <p className="update_data_fail">Wystąpił błąd podczas zapisu danych.</p>}
+      <div className="search">
+        <label>
+          Wyszukaj użytkownika:
+          <input
+            type="text"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </label>
+      </div>
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
@@ -233,7 +244,13 @@ function Users() {
             </TableRow>
           </TableHead>
           <TableBody>
-            {list.map((val) => (
+            {list
+                .filter((user) =>
+                  user.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                  user.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                  user.message.toLowerCase().includes(searchTerm.toLowerCase())
+                )
+                .map((val) => (
               <TableRow key={val.id} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell component="th" scope="row">
                   {val.id}
