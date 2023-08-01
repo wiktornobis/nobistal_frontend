@@ -13,16 +13,32 @@ import { url } from '@/app/components/constants/Constants';
 
 function Users() {
   const [list, setList] = useState([]);
+  const [updateUser, setUpdateUser] = useState(false);
+  const [updateUserFail, setUpdateUserFail] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: 'Klient dodany ręcznie.',
   });
+  const [editUserId, setEditUserId] = useState(null);
+  const [editFormData, setEditFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
 
   // const router = useRouter();
   const token = localStorage.getItem('token');
   // !token ? router.push('/login') : '';
-
+  useEffect(() => {
+    let timeout;
+    if (updateUser) {
+      timeout = setTimeout(() => {
+        setUpdateUser(false);
+      }, 6000);
+    }
+    return () => clearTimeout(timeout);
+  }, [updateUser]);
   useEffect(() => {
     if (token) {
       Axios.get(`${url}/api/get`, {
@@ -59,7 +75,54 @@ function Users() {
         });
     }
   };
+  function handleEditFormChange(event) {
+    const { name, value } = event.target;
+    setEditFormData((prevEditFormData) => ({
+      ...prevEditFormData,
+      [name]: value,
+    }));
+  }
+  function handleCancelEdit() {
+    setEditUserId(null);
+    setEditFormData({
+      name: '',
+      email: '',
+      message: '',
+    });
+  }
+  function handleEditUser(user) {
+    setEditUserId(user.id);
+    setEditFormData({
+      name: user.name,
+      email: user.email,
+      message: user.message,
+    });
+  }
 
+   function handleUpdateUser(e) {
+    e.preventDefault();
+    Axios.put(`${url}/api/update/user/${editUserId}`, editFormData, {
+      headers: {
+        'x-access-token': token,
+      },
+    })
+      .then((response) => {
+        setList((prevList) =>
+          prevList.map((user) => (user.id === editUserId ? { ...user, ...editFormData } : user))
+        );
+        setEditUserId(null);
+        setUpdateUser(true);
+        setEditFormData({
+          name: '',
+          email: '',
+          message: '',
+        });
+      })
+      .catch((error) => {
+        console.error('Wystąpił błąd podczas aktualizacji użytkownika:', error.message);
+        setUpdateUserFail(true);
+      });
+  }
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevFormData) => ({
@@ -100,7 +163,9 @@ function Users() {
 
   return (
     <div className="data-table">
+      <h3>Baza klientów - NOBI-STAL</h3>
       <button className="data-table-btn-logout" onClick={logOut}>Wyloguj</button>
+      {!editUserId && (
       <form onSubmit={handleSubmit}>
         <label>
           Imię:
@@ -116,7 +181,46 @@ function Users() {
         </label>
         <button type="submit">Dodaj</button>
       </form>
-
+      )}
+      {editUserId && (
+        <form onSubmit={handleUpdateUser}>
+          <label>
+            Imię:
+            <input
+              type="text"
+              name="name"
+              value={editFormData.name}
+              onChange={handleEditFormChange}
+              required
+            />
+          </label>
+          <label>
+            Email:
+            <input
+              type="email"
+              name="email"
+              value={editFormData.email}
+              onChange={handleEditFormChange}
+              required
+            />
+          </label>
+          <label>
+            Wiadomość:
+            <textarea
+              name="message"
+              value={editFormData.message}
+              onChange={handleEditFormChange}
+              required
+            />
+          </label>
+          <div className="btn-actions">
+            <button onClick={handleCancelEdit}>Anuluj</button>
+            <button type="submit">Zapisz zmiany</button>
+          </div>
+        </form>
+      )}
+      {updateUser && <p className="update_data">Dane użytkownika zostały zaktualizowane pomyślnie.</p>}
+      {updateUserFail && <p className="update_data_fail">Wystąpił błąd podczas zapisu danych.</p>}
       <TableContainer component={Paper}>
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
@@ -140,6 +244,9 @@ function Users() {
                 <TableCell align="right">{new Date(val.created_at).toLocaleDateString()}</TableCell>
                 <TableCell align="right">
                   <button onClick={() => handleDeleteUser(val.id)}>Usuń</button>
+                </TableCell>
+                <TableCell align="right">
+                  <button onClick={() => handleEditUser(val)}>Edytuj</button>
                 </TableCell>
               </TableRow>
             ))}
