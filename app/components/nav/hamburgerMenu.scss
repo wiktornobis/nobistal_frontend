@@ -42,13 +42,12 @@
   @include mobile {
     display: flex;
   }
-
 }
 .nav-menu {
   background-color: #f6f6f6;
   color: black;
   width: 100%;
-  height: 70vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   position: fixed;

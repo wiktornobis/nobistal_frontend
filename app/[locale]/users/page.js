@@ -249,25 +249,26 @@ function Users() {
                 .filter((user) =>
                   user.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                   user.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                  user.message.toLowerCase().includes(searchTerm.toLowerCase())
+                  user.message.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                  new Date(user.created_at).toLocaleDateString().toLowerCase().includes(searchTerm.toLowerCase())
                 )
                 .map((val) => (
-              <TableRow key={val.id} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-                <TableCell component="th" scope="row">
-                  {val.id}
-                </TableCell>
-                <TableCell align="right">{val.name}</TableCell>
-                <TableCell align="right">{val.email}</TableCell>
-                <TableCell align="right">{val.message}</TableCell>
-                <TableCell align="right">{new Date(val.created_at).toLocaleDateString()}</TableCell>
-                <TableCell align="right">
-                  <button onClick={() => handleDeleteUser(val.id)}>Usuń</button>
-                </TableCell>
-                <TableCell align="right">
-                  <button onClick={() => handleEditUser(val)}>Edytuj</button>
-                </TableCell>
-              </TableRow>
-            ))}
+                  <TableRow key={val.id} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
+                    <TableCell component="th" scope="row">
+                      {val.id}
+                    </TableCell>
+                    <TableCell align="right">{val.name}</TableCell>
+                    <TableCell align="right">{val.email}</TableCell>
+                    <TableCell align="right">{val.message}</TableCell>
+                    <TableCell align="right">{new Date(val.created_at).toLocaleDateString()}</TableCell>
+                    <TableCell align="right">
+                      <button onClick={() => handleDeleteUser(val.id)}>Usuń</button>
+                    </TableCell>
+                    <TableCell align="right">
+                      <button onClick={() => handleEditUser(val)}>Edytuj</button>
+                    </TableCell>
+                  </TableRow>
+                ))}
           </TableBody>
         </Table>
       </TableContainer>
