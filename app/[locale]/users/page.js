@@ -11,6 +11,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import { url } from '@/app/components/constants/Constants';
 import { useRouter } from 'next/navigation';
+import { redirect } from 'next/navigation'
 
 function Users() {
   const router = useRouter();
@@ -31,7 +32,7 @@ function Users() {
   });
 
   const token = localStorage.getItem('token');
-  !token ? router.push('/login') : '';
+  !token ? redirect('/login') : '';
   useEffect(() => {
     let timeout;
     if (updateUser) {
